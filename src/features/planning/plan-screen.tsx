@@ -11,7 +11,7 @@ import type { Meal } from '@/models/domain';
 import { useApp } from '@/state/app-state';
 import { localDate } from '@/services/planning';
 import { AddToPlan } from './add-to-plan';
-import { recipeImages, recipePlaceholder } from '@/features/recipes/recipe-card';
+import { recipePlate } from '@/features/recipes/recipe-card';
 import { colors, space, token } from '@/theme';
 
 export function PlanScreen() {
@@ -42,7 +42,7 @@ export function PlanScreen() {
     <Stack gap={space.lg} style={{ paddingTop: space.xl }}>
       {onDate.length ? onDate.map(meal => { const r = findRecipe(meal.recipeId); if (!r) return null;
         return <Pressable key={meal.id} accessibilityRole="button" accessibilityLabel={`Options for ${r.title}`} onPress={() => { setMenuMeal(meal); setMoveDate(meal.date); }}>
-          <Row style={{ gap: space.gutter }}><Image source={r.image ? recipeImages[r.image] : recipePlaceholder} contentFit="contain" style={{ width: token('component.screen.action-bar-height'), aspectRatio: 1 }} />
+          <Row style={{ gap: space.gutter }}><Image source={recipePlate(r)} contentFit="contain" style={{ width: token('component.screen.action-bar-height'), aspectRatio: 1 }} />
             <Stack gap={space.xxs} style={{ flex: 1 }}><Text role="body-strong">{recipePresentation[r.id]?.title ?? r.title}</Text><Text role="small" muted>{r.minutes} min · {meal.servings} servings</Text><Text role="small" muted>{meal.status === 'cooked' ? 'Cooked' : 'Dinner'}</Text></Stack>
           </Row>
         </Pressable>;

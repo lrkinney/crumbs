@@ -18,8 +18,7 @@ export function HomeScreen() {
   const onDate = data.meals.filter(m => m.date === date);
   const budget = data.household.budgetMinor;
   const spent = weekSpendMinor(data, today);
-  return <AppScreen title="Home" largeTitle back={false} bodyGap={space.xl} subtitle={planned.length ? 'A little planning. More room for life.' : undefined}
-    footer={planned.length ? <Button label="See your week" style={{ minHeight: token('component.button.height.default') }} onPress={() => router.navigate('/plan')} /> : undefined}>
+  return <AppScreen title="Home" largeTitle back={false} bodyGap={space.xl} subtitle={planned.length ? 'A little planning. More room for life.' : undefined}>
     <Stack gap={space.md}>
       <PlanCalendar date={date} onChange={setDate} weekOf={today} />
       <DayPlan date={date} today={today} meals={onDate} />
