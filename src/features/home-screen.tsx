@@ -7,7 +7,7 @@ import { PlanCalendar } from '@/features/planning/plan-calendar';
 import { DayPlan } from '@/features/home/day-plan';
 import { WeeklyBudget } from '@/features/home/weekly-budget';
 import { useApp } from '@/state/app-state';
-import { localDate, weekSpendMinor } from '@/services/planning';
+import { dayHeading, localDate, weekSpendMinor } from '@/services/planning';
 import { colors, space, token } from '@/theme';
 
 export function HomeScreen() {
@@ -18,7 +18,7 @@ export function HomeScreen() {
   const onDate = data.meals.filter(m => m.date === date);
   const budget = data.household.budgetMinor;
   const spent = weekSpendMinor(data, today);
-  return <AppScreen title="Home" largeTitle back={false} bodyGap={space.xl} subtitle={planned.length ? 'A little planning. More room for life.' : undefined}>
+  return <AppScreen title={dayHeading(date, today)} titleRole="section" back={false} bodyGap={space.xl}>
     <Stack gap={space.md}>
       <PlanCalendar date={date} onChange={setDate} weekOf={today} />
       <DayPlan date={date} today={today} meals={onDate} />

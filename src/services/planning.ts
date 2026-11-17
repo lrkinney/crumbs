@@ -14,6 +14,13 @@ export function nextDays(count = 7, from = new Date()) {
 export function dateLabel(date: string) {
   return new Date(`${date}T12:00:00`).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
 }
+/** Home heading: "Today, November 17", "Tomorrow, November 18", "Yesterday, ...", else "Wednesday, November 19". */
+export function dayHeading(date: string, today: string) {
+  const at = (d: string) => new Date(`${d}T12:00:00`);
+  const days = Math.round((at(date).getTime() - at(today).getTime()) / 86400000);
+  const lead = days === 0 ? 'Today' : days === 1 ? 'Tomorrow' : days === -1 ? 'Yesterday' : at(date).toLocaleDateString('en-US', { weekday: 'long' });
+  return `${lead}, ${at(date).toLocaleDateString('en-US', { month: 'long', day: 'numeric' })}`;
+}
 export function money(minor: number) {
   return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(minor / 100);
 }

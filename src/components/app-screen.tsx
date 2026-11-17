@@ -3,7 +3,7 @@ import { Pressable, StyleSheet, View, type StyleProp, type ViewStyle } from 'rea
 import { router } from 'expo-router';
 import { Icon, IconButton, Row, Screen, Stack, Text, type IconName } from '@/components/ui';
 import { useApp } from '@/state/app-state';
-import { colors, radius, space, token } from '@/theme';
+import { colors, radius, space, token, type TypeRole } from '@/theme';
 import { layout } from '@/theme/layout';
 import { StandaloneTabs } from '@/components/navigation';
 
@@ -13,15 +13,15 @@ export function ProfileLink() {
     <Text role="label" muted>{data.household.name}</Text><Icon name="user" color={colors.muted} />
   </Pressable>;
 }
-export function AppScreen({ title, subtitle, children, back = true, largeTitle, bodyGap = layout.journeyBodyGap, footer, headerLeft, footerSafeArea = false, navigation }: PropsWithChildren<{
-  title: string; subtitle?: string; back?: boolean; largeTitle?: boolean; bodyGap?: number;
+export function AppScreen({ title, subtitle, children, back = true, largeTitle, titleRole, bodyGap = layout.journeyBodyGap, footer, headerLeft, footerSafeArea = false, navigation }: PropsWithChildren<{
+  title: string; subtitle?: string; back?: boolean; largeTitle?: boolean; titleRole?: TypeRole; bodyGap?: number;
   footer?: ReactNode; headerLeft?: ReactNode; footerSafeArea?: boolean;
   navigation?: 'index' | 'plan' | 'shop' | 'cook' | 'pantry';
 }>) {
   return <View style={{ flex: 1 }}><Screen footer={footer} footerSafeArea={footerSafeArea} contentStyle={{ gap: bodyGap }}
     header={<Stack gap={layout.headerTitleGap}>
       <Row style={styles.header}>{headerLeft ?? (back ? <IconButton name="back" label="Go back" onPress={() => router.canGoBack() ? router.back() : router.replace('/')} /> : <View />)}<ProfileLink /></Row>
-      <Stack gap={layout.subtitleGap}><Text role={largeTitle ? 'display' : 'title'} accessibilityRole="header">{title}</Text>{subtitle ? <Text muted>{subtitle}</Text> : null}</Stack>
+      <Stack gap={layout.subtitleGap}><Text role={titleRole ?? (largeTitle ? 'display' : 'title')} accessibilityRole="header">{title}</Text>{subtitle ? <Text muted>{subtitle}</Text> : null}</Stack>
     </Stack>}>
     {children}
   </Screen>{navigation ? <StandaloneTabs active={navigation} /> : null}</View>;

@@ -132,3 +132,11 @@ test('week spend sums estimated meal costs from Sunday to Saturday only', async 
   assert.equal(weekSpendMinor(d, '2026-11-17'), Math.round(r.estimateMinor * 2 / r.baseServings) + Math.round(r.estimateMinor * 4 / r.baseServings));
   assert.equal(weekSpendMinor({ ...d, meals: [] }, '2026-11-17'), 0);
 });
+
+test('home heading names today, tomorrow and yesterday, else the weekday', async () => {
+  const { dayHeading } = await import('../src/services/planning.ts');
+  assert.equal(dayHeading('2026-11-17', '2026-11-17'), 'Today, November 17');
+  assert.equal(dayHeading('2026-11-18', '2026-11-17'), 'Tomorrow, November 18');
+  assert.equal(dayHeading('2026-11-16', '2026-11-17'), 'Yesterday, November 16');
+  assert.equal(dayHeading('2026-11-20', '2026-11-17'), 'Friday, November 20');
+});
