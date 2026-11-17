@@ -1,0 +1,43 @@
+{
+  "export": {
+    "format": "PNG",
+    "scale": 2,
+    "useAbsoluteBounds": true
+  },
+  "logicalSize": [
+    169,
+    169
+  ],
+  "pixelSize": [
+    338,
+    338
+  ],
+  "reason": "Legacy exports have different shadow padding. Browse tile artwork must use identical frame bounds.",
+  "assets": [
+    {
+      "name": "chicken",
+      "sourceNodeId": "100:806",
+      "path": "assets/recipe-tiles/chicken.png"
+    },
+    {
+      "name": "souvlaki",
+      "sourceNodeId": "100:808",
+      "path": "assets/recipe-tiles/souvlaki.png"
+    },
+    {
+      "name": "ratatouille",
+      "sourceNodeId": "100:810",
+      "path": "assets/recipe-tiles/ratatouille.png"
+    },
+    {
+      "name": "tofu",
+      "sourceNodeId": "100:812",
+      "path": "assets/recipe-tiles/tofu.png"
+    },
+    {
+      "name": "toasts",
+      "sourceNodeId": "114:1096",
+      "path": "assets/recipe-tiles/toasts.png"
+    }
+  ]
+}

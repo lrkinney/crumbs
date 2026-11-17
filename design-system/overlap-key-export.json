@@ -1,0 +1,179 @@
+{
+  "generated": "2026-11-03",
+  "screens": [
+    {
+      "id": "15:1203",
+      "name": "Browse Recipes",
+      "key": {
+        "id": "370:20020",
+        "componentId": "79:4537",
+        "visible": true,
+        "x": 20,
+        "y": 236,
+        "width": 192,
+        "height": 20,
+        "props": {
+          "Icon Visible#70:0": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "Text Visible#72:22": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "State": {
+            "value": "Info",
+            "type": "VARIANT",
+            "boundVariables": {}
+          }
+        },
+        "bindings": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:70:3135"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53509"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53509"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53509"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53509"
+          },
+          "counterAxisSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          }
+        }
+      },
+      "search": {
+        "id": "316:59507",
+        "x": 20,
+        "y": 180,
+        "width": 362,
+        "height": 48
+      },
+      "grid": {
+        "id": "15:1204",
+        "name": "Recipes",
+        "x": 20,
+        "y": 288,
+        "width": 362,
+        "height": 492
+      },
+      "valid": true
+    },
+    {
+      "id": "79:4278",
+      "name": "Browse Recipes - Overlap",
+      "key": {
+        "id": "79:4661",
+        "componentId": "79:4537",
+        "visible": true,
+        "x": 20,
+        "y": 236,
+        "width": 192,
+        "height": 20,
+        "props": {
+          "Icon Visible#70:0": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "Text Visible#72:22": {
+            "type": "BOOLEAN",
+            "value": true
+          },
+          "State": {
+            "value": "Info",
+            "type": "VARIANT",
+            "boundVariables": {}
+          }
+        },
+        "bindings": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:70:3135"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53509"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53509"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53509"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53509"
+          },
+          "counterAxisSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          }
+        }
+      },
+      "search": {
+        "id": "316:59537",
+        "x": 20,
+        "y": 180,
+        "width": 362,
+        "height": 48
+      },
+      "grid": {
+        "id": "79:4279",
+        "name": "Frame 19",
+        "x": 20,
+        "y": 288,
+        "width": 362,
+        "height": 492
+      },
+      "valid": true
+    }
+  ],
+  "visualValidation": "Both live browse states screenshot-reviewed after edits. Key visible below search; no overlap with search, tiles, or bottom navigation.",
+  "expoValidation": "Browser/device visual validation unavailable in managed sandbox."
+}

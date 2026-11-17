@@ -1,0 +1,178 @@
+{
+  "type": "FRAME",
+  "name": "Plan actions",
+  "visible": true,
+  "layout": {
+    "direction": "VERTICAL",
+    "width": 362,
+    "height": 148,
+    "primarySizing": "AUTO",
+    "crossSizing": "FIXED",
+    "padding": [
+      16,
+      0,
+      0,
+      0
+    ],
+    "gap": 16,
+    "grow": 0,
+    "align": "STRETCH"
+  },
+  "bindings": {
+    "itemSpacing": {
+      "type": "VARIABLE_ALIAS",
+      "id": "VariableID:316:53362"
+    },
+    "paddingTop": {
+      "type": "VARIABLE_ALIAS",
+      "id": "VariableID:316:53362"
+    }
+  },
+  "children": [
+    {
+      "type": "INSTANCE",
+      "name": "Browse recipes",
+      "visible": true,
+      "componentId": "70:3168",
+      "props": {
+        "Right Icon#72:43": "72:3430",
+        "Text Visible#72:22": true,
+        "Left Icon#72:34": "72:3430",
+        "Right Icon Visible#70:5": false,
+        "Label#127:0": "Browse recipes",
+        "Left Icon Visible#70:0": false,
+        "State": "Default",
+        "Icon Size": "Regular"
+      },
+      "size": [
+        362,
+        60
+      ],
+      "bindings": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:70:3137"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53519"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53519"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53519"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53519"
+        },
+        "height": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53532"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53518"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53518"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53518"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53518"
+        },
+        "counterAxisSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53355"
+        },
+        "minHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53535"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:70:3201"
+          }
+        ]
+      }
+    },
+    {
+      "type": "INSTANCE",
+      "name": "Review week & groceries",
+      "visible": true,
+      "componentId": "70:3168",
+      "props": {
+        "Right Icon#72:43": "72:3430",
+        "Text Visible#72:22": true,
+        "Left Icon#72:34": "72:3430",
+        "Right Icon Visible#70:5": false,
+        "Label#127:0": "Review week & groceries",
+        "Left Icon Visible#70:0": false,
+        "State": "Default",
+        "Icon Size": "Regular"
+      },
+      "size": [
+        362,
+        56
+      ],
+      "bindings": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:70:3137"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53519"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53519"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53519"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53519"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53518"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53518"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53518"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53518"
+        },
+        "counterAxisSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:316:53355"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:70:3201"
+          }
+        ]
+      }
+    }
+  ],
+  "contentHeight": 541
+}

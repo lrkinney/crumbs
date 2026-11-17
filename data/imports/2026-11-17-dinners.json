@@ -1,0 +1,5418 @@
+[
+  {
+    "id": "wasabi-garlic-prawns-with-soba-and-pak-choi",
+    "title": "Wasabi-Garlic Prawns with Soba and Pak Choi",
+    "image": null,
+    "description": "Wasabi-garlic prawns with soba and pak choi. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 910,
+    "tags": [
+      "Dinner",
+      "Seafood"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "wasabi",
+        "label": "Wasabi",
+        "amount": 15,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "soy-sauce",
+        "label": "Soy Sauce",
+        "amount": 45,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "soba-noodles-dried",
+        "label": "Soba Noodles",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "butter",
+        "label": "Butter",
+        "amount": 50,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "prawns-raw-peeled",
+        "label": "Prawns",
+        "amount": 180,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": "Raw Peeled",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "spring-onions",
+        "label": "Spring Onions",
+        "amount": 60,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "pak-choi",
+        "label": "Pak Choi",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "totalMinutes": 20
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 554,
+      "proteinG": 33,
+      "carbohydrateG": 63,
+      "fatG": 22,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/soba-noodles-wasabi-garlic-prawns",
+      "notes": "Added measured pak choi side, cooked with noodles; longer preparation allowance. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions. Spring onions standardized to 15g each for consistent grocery aggregation."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Combine wasabi, soy and minced garlic. Boil soba according to its packet, adding sliced pak choi for the final 3 minutes; reserve a little cooking water before draining.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Melt butter in a skillet. Cook prawns until opaque throughout. Add sauce, then noodles and greens; loosen with reserved water. Finish with sliced spring onions.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Katy Greenwood",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Added measured pak choi side, cooked with noodles; longer preparation allowance.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "paprika-butter-fish-with-potatoes-and-green-beans",
+    "title": "Paprika-Butter Fish with Potatoes and Green Beans",
+    "image": null,
+    "description": "Paprika-butter fish with potatoes and green beans. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 511,
+    "tags": [
+      "Dinner",
+      "Fish"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "olive-oil",
+        "label": "Olive Oil",
+        "amount": 15,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "plain-flour",
+        "label": "Plain Flour",
+        "amount": 20,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "basa-fillet",
+        "label": "Basa Fillet",
+        "amount": 250,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "salted-butter",
+        "label": "Salted Butter",
+        "amount": 50,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "spring-onions",
+        "label": "Spring Onions",
+        "amount": 45,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "smoked-paprika",
+        "label": "Smoked Paprika",
+        "amount": 2,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "potatoes",
+        "label": "Potatoes",
+        "amount": 350,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "green-beans",
+        "label": "Green Beans",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "totalMinutes": 30
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 569,
+      "proteinG": 26,
+      "carbohydrateG": 48,
+      "fatG": 32,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan",
+      "Food thermometer"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/basa-fillet-with-garlic-spring-onion-paprika-butter",
+      "notes": "Quantified the suggested potato and vegetable sides; total time includes cooking them. Flour and paprika weights are editorial measures. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions. Spring onions standardized to 15g each for consistent grocery aggregation."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Cut potatoes into small chunks and boil until tender, about 15–18 minutes; add beans for the last 5 minutes, then drain.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Pat fish dry and dust with flour. Pan-fry in oil over medium heat for 2–3 minutes per side, continuing until opaque and flaking; transfer to plates. Check fish reaches 63°C in the thickest part.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Melt butter in the pan. Soften sliced spring onions and grated garlic for 1–2 minutes, then stir in paprika for 30 seconds. Spoon over fish and serve with vegetables.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Helena Busiakiewicz",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Quantified the suggested potato and vegetable sides; total time includes cooking them. Flour and paprika weights are editorial measures.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "panang-chicken-and-green-beans-with-jasmine-rice",
+    "title": "Panang Chicken and Green Beans with Jasmine Rice",
+    "image": null,
+    "description": "Panang chicken and green beans with jasmine rice. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 609,
+    "tags": [
+      "Dinner",
+      "Chicken"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "coconut-milk",
+        "label": "Coconut Milk",
+        "amount": 400,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "panang-curry-paste",
+        "label": "Panang Curry Paste",
+        "amount": 30,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "chicken",
+        "label": "Chicken Breast",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "green-beans",
+        "label": "Green Beans",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "fish-sauce",
+        "label": "Fish Sauce",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "brown-sugar",
+        "label": "Brown Sugar",
+        "amount": 12,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "makrut-lime-leaves",
+        "label": "Makrut Lime Leaves",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "thai-basil",
+        "label": "Thai Basil",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "jasmine-rice-dried",
+        "label": "Jasmine Rice",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-10",
+        "foodId": "red-chilli",
+        "label": "Red Chilli",
+        "amount": 0.5,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "totalMinutes": 30
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 834,
+      "proteinG": 34,
+      "carbohydrateG": 78,
+      "fatG": 44,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan",
+      "Food thermometer"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/panang-chicken-curry-kaeng-panang-gai",
+      "notes": "Uses purchased paste instead of making surplus paste. Added measured uncooked rice; fixed lower-end seasoning quantities. Check paste ingredients for allergens. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Cook jasmine rice using packet water proportions. Thinly slice chicken, halve beans and finely shred lime leaves.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Heat a spoonful of the coconut cream in a saucepan. Stir in curry paste for a minute, then chicken for 3–4 minutes.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Add beans, remaining coconut milk, fish sauce, sugar and half the lime leaves. Simmer until beans are tender and chicken reaches 74°C. Stir in basil; serve with rice, chilli and remaining lime leaves.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Yui Miles",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Uses purchased paste instead of making surplus paste. Added measured uncooked rice; fixed lower-end seasoning quantities. Check paste ingredients for allergens.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "thai-basil-beef-noodles-with-broccoli",
+    "title": "Thai Basil Beef Noodles with Broccoli",
+    "image": null,
+    "description": "Thai basil beef noodles with broccoli. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 858,
+    "tags": [
+      "Dinner",
+      "Beef"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "wide-rice-noodles-dried",
+        "label": "Wide Rice Noodles",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "vegetable-oil",
+        "label": "Vegetable Oil",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 3,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "birds-eye-chilli",
+        "label": "Birds Eye Chilli",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "sirloin-steak",
+        "label": "Sirloin Steak",
+        "amount": 225,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "broccoli",
+        "label": "Broccoli",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "thai-basil",
+        "label": "Thai Basil",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "light-soy-sauce",
+        "label": "Light Soy Sauce",
+        "amount": 52.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "oyster-sauce",
+        "label": "Oyster Sauce",
+        "amount": 52.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-10",
+        "foodId": "fish-sauce",
+        "label": "Fish Sauce",
+        "amount": 5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-11",
+        "foodId": "sugar",
+        "label": "Sugar",
+        "amount": 12,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "totalMinutes": 20
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 744,
+      "proteinG": 36,
+      "carbohydrateG": 99,
+      "fatG": 23,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan",
+      "Food thermometer"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/drunken-noodles-pad-kee-mao",
+      "notes": "Reduced chilli from three to one for a milder default; basil handful standardized. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Prepare rice noodles according to the packet. Mix soy, oyster and fish sauces with sugar. Slice beef thinly across the grain; chop broccoli, garlic and chilli.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Heat oil in a wok. Stir-fry garlic and chilli briefly, then beef until seared. Add broccoli and cook until crisp-tender, using a splash of water if necessary. Ensure beef reaches 63°C and rests for 3 minutes before serving.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Toss in noodles and sauce until hot. Fold in basil and serve immediately.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Dominique Woolf",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Reduced chilli from three to one for a milder default; basil handful standardized.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "chicken-and-egg-donburi-with-cucumber",
+    "title": "Chicken and Egg Donburi with Cucumber",
+    "image": null,
+    "description": "Chicken and egg donburi with cucumber. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 527,
+    "tags": [
+      "Dinner",
+      "Chicken"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "dashi-stock",
+        "label": "Dashi Stock",
+        "amount": 250,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "mirin",
+        "label": "Mirin",
+        "amount": 22.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "sake",
+        "label": "Sake",
+        "amount": 22.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "soy-sauce",
+        "label": "Soy Sauce",
+        "amount": 22.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "sugar",
+        "label": "Sugar",
+        "amount": 18,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "chicken-thigh-boneless",
+        "label": "Chicken Thigh",
+        "amount": 250,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": "Boneless",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "onion",
+        "label": "Onion",
+        "amount": 0.5,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "eggs",
+        "label": "Eggs",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "japanese-rice-dried",
+        "label": "Japanese Rice",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-10",
+        "foodId": "parsley",
+        "label": "Parsley",
+        "amount": 5,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-11",
+        "foodId": "togarashi",
+        "label": "Togarashi",
+        "amount": 1,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-12",
+        "foodId": "cucumber",
+        "label": "Cucumber",
+        "amount": 0.5,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": "Target Weight 150g; Count Assumes a 300g Cucumber.",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-13",
+        "foodId": "rice-vinegar",
+        "label": "Rice Vinegar",
+        "amount": 10,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "totalMinutes": 30
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 619,
+      "proteinG": 38,
+      "carbohydrateG": 83,
+      "fatG": 12,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan",
+      "Food thermometer"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/oyakodon",
+      "notes": "Quantified rice and chicken weight; added cucumber side. Eggs cooked through rather than runny. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions. Cucumber count assumes 300g each to match existing catalog units; weigh the target amount in preparation notes."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Cook rice according to its packet. Slice cucumber and dress with rice vinegar.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Mix dashi, mirin, sake, soy and sugar. Thinly slice chicken and onion; simmer in half the broth for 8–10 minutes, until chicken reaches 74°C.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Pour beaten eggs over chicken and cook until set. Heat remaining broth separately. Divide rice between bowls, add chicken and egg, and spoon over hot broth. Finish with parsley and togarashi; serve cucumber alongside. Check the egg mixture reaches 71°C.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated.",
+      "For fractional eggs, beat and weigh the required proportion; retain unused raw egg safely or choose an even serving count."
+    ],
+    "extensions": {
+      "author": "Nina Matsunaga",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Quantified rice and chicken weight; added cucumber side. Eggs cooked through rather than runny.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "lemon-chive-gnocchi-with-green-beans",
+    "title": "Lemon-Chive Gnocchi with Green Beans",
+    "image": null,
+    "description": "Lemon-chive gnocchi with green beans. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 764,
+    "tags": [
+      "Dinner",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "parsley",
+        "label": "Parsley",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "chives",
+        "label": "Chives",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "pine-nuts",
+        "label": "Pine Nuts",
+        "amount": 20,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "vegetarian-hard-cheese",
+        "label": "Vegetarian Hard Cheese",
+        "amount": 20,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "lemon",
+        "label": "Lemon",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "olive-oil",
+        "label": "Olive Oil",
+        "amount": 60,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "gnocchi",
+        "label": "Gnocchi",
+        "amount": 500,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "green-beans",
+        "label": "Green Beans",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "totalMinutes": 20
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 795,
+      "proteinG": 17,
+      "carbohydrateG": 100,
+      "fatG": 39,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/gnocchi-lemon-chive-pesto",
+      "notes": "Added measured green beans, following source vegetable suggestion; herbs and garnish standardized. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Finely chop garlic and herbs. Combine with chopped toasted pine nuts, grated cheese, lemon zest, juice and oil.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Boil green beans for about 5 minutes until tender. Add gnocchi for the packet cooking time, then drain. Toss with the herb dressing and serve.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Good Food team",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Added measured green beans, following source vegetable suggestion; herbs and garnish standardized.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "prawn-pad-thai-with-beansprouts",
+    "title": "Prawn Pad Thai with Beansprouts",
+    "image": null,
+    "description": "Prawn pad Thai with beansprouts. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 759,
+    "tags": [
+      "Dinner",
+      "Seafood"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "prawns-raw-peeled",
+        "label": "Prawns",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": "Raw Peeled",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "coriander",
+        "label": "Coriander",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "rice-noodles-ready-cooked",
+        "label": "Rice Noodles",
+        "amount": 400,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Ready Cooked",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "beansprouts",
+        "label": "Beansprouts",
+        "amount": 85,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "eggs",
+        "label": "Eggs",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "lime",
+        "label": "Lime",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "fish-sauce",
+        "label": "Fish Sauce",
+        "amount": 15,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "sugar",
+        "label": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "roasted-peanuts",
+        "label": "Roasted Peanuts",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-10",
+        "foodId": "vegetable-oil",
+        "label": "Vegetable Oil",
+        "amount": 5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "totalMinutes": 20
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 433,
+      "proteinG": 30,
+      "carbohydrateG": 62,
+      "fatG": 8,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/10-minute-pad-thai",
+      "notes": "Added measured pan oil and more realistic prep/cooking allowance. Beat and weigh egg to scale to one serving. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Chop coriander, separating stems and leaves. Mix lime juice, fish sauce and sugar; beat egg.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Warm oil in a non-stick pan. Cook prawns and coriander stems until prawns are opaque. Add noodles and beansprouts, then egg and sauce. Toss until egg is set and beansprouts are thoroughly cooked.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Finish with coriander leaves and crushed peanuts. Serve immediately.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated.",
+      "For fractional eggs, beat and weigh the required proportion; retain unused raw egg safely or choose an even serving count."
+    ],
+    "extensions": {
+      "author": "Good Food team",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Added measured pan oil and more realistic prep/cooking allowance. Beat and weigh egg to scale to one serving.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "tahini-noodles-with-lime-cabbage-slaw",
+    "title": "Tahini Noodles with Lime-Cabbage Slaw",
+    "image": null,
+    "description": "Tahini noodles with lime-cabbage slaw. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 291,
+    "tags": [
+      "Dinner",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "red-cabbage",
+        "label": "Red Cabbage",
+        "amount": 300,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "sichuan-peppercorns",
+        "label": "Sichuan Peppercorns",
+        "amount": 1,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "coriander",
+        "label": "Coriander",
+        "amount": 5,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "lime",
+        "label": "Lime",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "tahini",
+        "label": "Tahini",
+        "amount": 45,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "low-sodium-soy-sauce",
+        "label": "Low Sodium Soy Sauce",
+        "amount": 15,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "crispy-chilli-oil",
+        "label": "Crispy Chilli Oil",
+        "amount": 5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "egg-noodles-dried",
+        "label": "Egg Noodles",
+        "amount": 140,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "totalMinutes": 20
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 485,
+      "proteinG": 16,
+      "carbohydrateG": 71,
+      "fatG": 17,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/tahini-noodles-with-red-cabbage-sichuan-peppercorn-slaw",
+      "notes": "Cabbage half standardized to 300g; tahini tablespoon standardized to 15g. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Thinly shred cabbage. Crush toasted peppercorns and toss with cabbage, coriander and lime juice; massage briefly.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Whisk tahini, grated garlic, soy and chilli oil. Boil noodles as directed; save some cooking water, then drain.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Loosen sauce with warm noodle water until pourable. Coat noodles and serve with slaw.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Helena Busiakiewicz",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Cabbage half standardized to 300g; tahini tablespoon standardized to 15g.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "red-pesto-gnocchi-with-chargrilled-vegetables",
+    "title": "Red Pesto Gnocchi with Chargrilled Vegetables",
+    "image": null,
+    "description": "Red pesto gnocchi with chargrilled vegetables. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 598,
+    "tags": [
+      "Dinner",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "gnocchi",
+        "label": "Gnocchi",
+        "amount": 400,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "prepared-chargrilled-vegetables",
+        "label": "Prepared Chargrilled Vegetables",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "vegetarian-red-pesto",
+        "label": "Vegetarian Red Pesto",
+        "amount": 30,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "basil",
+        "label": "Basil",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "vegetarian-hard-cheese",
+        "label": "Vegetarian Hard Cheese",
+        "amount": 20,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "totalMinutes": 15
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 514,
+      "proteinG": 13,
+      "carbohydrateG": 77,
+      "fatG": 17,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/speedy-mediterranean-gnocchi",
+      "notes": "Requires purchased prepared vegetables, not home roasting. Cheese and basil quantified; time includes boiling water. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Bring a saucepan of water to the boil. Chop prepared vegetables into bite-sized pieces.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Cook gnocchi according to the packet, reserving a little water. Drain and return to the pan with vegetables and pesto; warm until steaming hot.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Loosen with reserved water and finish with basil and grated cheese.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Cassie Best",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Requires purchased prepared vegetables, not home roasting. Cheese and basil quantified; time includes boiling water.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "salmon-with-tartare-cream-spinach-and-potatoes",
+    "title": "Salmon with Tartare Cream, Spinach and Potatoes",
+    "image": null,
+    "description": "Salmon with tartare cream, spinach and potatoes. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 1004,
+    "tags": [
+      "Dinner",
+      "Fish"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "vegetable-oil",
+        "label": "Vegetable Oil",
+        "amount": 5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "salmon-fillet",
+        "label": "Salmon Fillet",
+        "amount": 300,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "spinach",
+        "label": "Spinach",
+        "amount": 250,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "reduced-fat-creme-fraiche",
+        "label": "Reduced Fat Creme Fraiche",
+        "amount": 30,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "lemon",
+        "label": "Lemon",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "capers",
+        "label": "Capers",
+        "amount": 5,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "parsley",
+        "label": "Parsley",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "potatoes",
+        "label": "Potatoes",
+        "amount": 350,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "totalMinutes": 30
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 532,
+      "proteinG": 38,
+      "carbohydrateG": 38,
+      "fatG": 25,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan",
+      "Food thermometer"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/salmon-spinach-tartare-cream",
+      "notes": "Added potatoes and quantified fish portions, herbs and sauce. Full-meal nutrition must be recalculated. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Cut potatoes small and boil for 15–18 minutes until tender.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Pan-fry salmon in oil, about 4 minutes per side, until cooked through and flaking; remove. Wilt spinach in the same pan. Check fish reaches 63°C in the thickest part.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Gently warm creme fraiche with capers, chopped parsley and half the lemon juice without boiling. Plate fish, spinach and drained potatoes; spoon over sauce and serve remaining lemon as wedges.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Good Food team",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Added potatoes and quantified fish portions, herbs and sauce. Full-meal nutrition must be recalculated.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "garlic-prawns-with-peppers-spinach-and-rice",
+    "title": "Garlic Prawns with Peppers, Spinach and Rice",
+    "image": null,
+    "description": "Garlic prawns with peppers, spinach and rice. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 602,
+    "tags": [
+      "Dinner",
+      "Seafood"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "vegetable-oil",
+        "label": "Vegetable Oil",
+        "amount": 45,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "bell-pepper",
+        "label": "Bell Pepper",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": "Red",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "prawns-raw-peeled",
+        "label": "Prawns",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": "Raw Peeled",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "soy-sauce",
+        "label": "Soy Sauce",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "spinach",
+        "label": "Spinach",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "rice",
+        "label": "Rice",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "totalMinutes": 30
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 587,
+      "proteinG": 29,
+      "carbohydrateG": 68,
+      "fatG": 22,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/stir-fry-prawns-peppers-spinach",
+      "notes": "Added measured rice side and its cooking time. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Cook rice as directed. Thinly slice garlic and pepper.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Heat two-thirds of the oil in a wok; briefly fry garlic until golden, then lift out. Stir-fry pepper until tender and remove.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Add remaining oil and prawns; cook until opaque throughout. Add soy, spinach and peppers; toss until spinach wilts. Serve over rice with garlic.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Good Food team",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Added measured rice side and its cooking time.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "prawn-and-leek-frittata-with-sourdough",
+    "title": "Prawn and Leek Frittata with Sourdough",
+    "image": null,
+    "description": "Prawn and leek frittata with sourdough. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 1065,
+    "tags": [
+      "Dinner",
+      "Seafood"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "leeks",
+        "label": "Leeks",
+        "amount": 450,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "prawns-raw-peeled",
+        "label": "Prawns",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": "Raw Peeled",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "eggs",
+        "label": "Eggs",
+        "amount": 5,
+        "unit": "each",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "garlic-herb-cream-cheese",
+        "label": "Garlic Herb Cream Cheese",
+        "amount": 120,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "olive-oil",
+        "label": "Olive Oil",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "sourdough-bread",
+        "label": "Sourdough Bread",
+        "amount": 120,
+        "unit": "g",
+        "aisle": "Bakery",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "totalMinutes": 30
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 845,
+      "proteinG": 43,
+      "carbohydrateG": 66,
+      "fatG": 45,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Ovenproof frying pan",
+      "Grill",
+      "Bowl",
+      "Toaster",
+      "Food thermometer"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/prawn-leek-frittata",
+      "notes": "Added oil mentioned only in source method and measured bread side; leeks standardized by weight. Beat and weigh eggs when scaling. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Wash and thinly slice leeks. Heat oil in an ovenproof skillet and soften leeks for about 5 minutes; add prawns for a minute.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Beat eggs with half the cream cheese. Pour into skillet, dot with remaining cheese and cook gently for 5–8 minutes.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Finish under a medium-hot grill until egg is fully set and prawns are opaque throughout. Toast sourdough while the frittata finishes and serve alongside. Check the egg mixture reaches 71°C.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated.",
+      "For fractional eggs, beat and weigh the required proportion; retain unused raw egg safely or choose an even serving count."
+    ],
+    "extensions": {
+      "author": "Esther Clark",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Added oil mentioned only in source method and measured bread side; leeks standardized by weight. Beat and weigh eggs when scaling.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "kimchi-udon-with-broccoli-and-sesame-egg",
+    "title": "Kimchi Udon with Broccoli and Sesame Egg",
+    "image": null,
+    "description": "Kimchi udon with broccoli and sesame egg. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 723,
+    "tags": [
+      "Dinner",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "udon-noodles-ready-cooked",
+        "label": "Udon Noodles",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Ready Cooked",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "sesame-oil",
+        "label": "Sesame Oil",
+        "amount": 22.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "onion",
+        "label": "Onion",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "ginger",
+        "label": "Ginger",
+        "amount": 15,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "broccoli",
+        "label": "Broccoli",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "vegetarian-kimchi",
+        "label": "Vegetarian Kimchi",
+        "amount": 75,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "radishes",
+        "label": "Radishes",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "spring-onions",
+        "label": "Spring Onions",
+        "amount": 60,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "low-sodium-soy-sauce",
+        "label": "Low Sodium Soy Sauce",
+        "amount": 7.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-10",
+        "foodId": "eggs",
+        "label": "Eggs",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-11",
+        "foodId": "black-sesame-seeds",
+        "label": "Black Sesame Seeds",
+        "amount": 6,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "totalMinutes": 25
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 406,
+      "proteinG": 16,
+      "carbohydrateG": 48,
+      "fatG": 18,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/kimchi-sesame-udon-noodles",
+      "notes": "Use vegetarian kimchi; ginger standardized and optional chilli omitted. Longer time allows chopping. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions. Spring onions standardized to 15g each for consistent grocery aggregation."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Loosen udon according to its packet. Slice onion, broccoli, radishes and spring onions; grate ginger.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Heat two-thirds of the oil. Soften onion and ginger for 5 minutes, then add broccoli, kimchi and radishes for another 5 minutes. Fold in noodles, spring onions and soy; heat through.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Fry eggs in remaining oil until set. Top each noodle portion with an egg and sesame seeds.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated.",
+      "For fractional eggs, beat and weigh the required proportion; retain unused raw egg safely or choose an even serving count."
+    ],
+    "extensions": {
+      "author": "Liberty Mendez",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Use vegetarian kimchi; ginger standardized and optional chilli omitted. Longer time allows chopping.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "sesame-tofu-noodles-with-pak-choi-and-snow-peas",
+    "title": "Sesame Tofu Noodles with Pak Choi and Snow Peas",
+    "image": null,
+    "description": "Sesame tofu noodles with pak choi and snow peas. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 695,
+    "tags": [
+      "Dinner",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "tofu",
+        "label": "Firm Tofu",
+        "amount": 250,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "low-sodium-soy-sauce",
+        "label": "Low Sodium Soy Sauce",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "pak-choi",
+        "label": "Pak Choi",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "snow-peas",
+        "label": "Snow Peas",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "ginger",
+        "label": "Ginger",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "egg-noodles-ready-cooked",
+        "label": "Egg Noodles",
+        "amount": 300,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Ready Cooked",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "sesame-seeds",
+        "label": "Sesame Seeds",
+        "amount": 9,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "sesame-oil",
+        "label": "Sesame Oil",
+        "amount": 15,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "totalMinutes": 20
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 454,
+      "proteinG": 24,
+      "carbohydrateG": 51,
+      "fatG": 19,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/sesame-noodles-tofu",
+      "notes": "Fixed vegetable mix and ginger quantity; extra optional sauces omitted. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Cut tofu into chunks. Coat with half the soy and one-third of the oil while preparing vegetables; no advance marination is needed.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Heat remaining oil in a wok. Stir-fry sliced greens, garlic and ginger for 2 minutes; add a splash of water to soften.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Add noodles, seeds and tofu coating liquid. Toss until hot, then fold in tofu and remaining soy. Cover briefly until tofu is heated through.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Good Food team",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Fixed vegetable mix and ginger quantity; extra optional sauces omitted.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "chorizo-and-pickled-pepper-penne",
+    "title": "Chorizo and Pickled-Pepper Penne",
+    "image": null,
+    "description": "Chorizo and pickled-pepper penne. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 556,
+    "tags": [
+      "Dinner",
+      "Pork"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "penne-dried",
+        "label": "Penne",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "olive-oil",
+        "label": "Olive Oil",
+        "amount": 7.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "chorizo",
+        "label": "Chorizo",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "canned-cherry-tomatoes",
+        "label": "Canned Cherry Tomatoes",
+        "amount": 400,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "pickled-chilli-peppers",
+        "label": "Pickled Chilli Peppers",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "basil",
+        "label": "Basil",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "parmesan",
+        "label": "Parmesan",
+        "amount": 20,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "sugar",
+        "label": "Sugar",
+        "amount": 1,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "totalMinutes": 20
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 728,
+      "proteinG": 32,
+      "carbohydrateG": 87,
+      "fatG": 27,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/chorizo-chilli-pepper-pasta",
+      "notes": "Quantified cheese, basil and method-only sugar. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Boil penne until just tender. Meanwhile dice chorizo and slice pickled peppers.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Fry chorizo in oil for 2 minutes, add tomatoes and sugar, and simmer for 5–8 minutes.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Drain pasta and toss with sauce, peppers and torn basil. Finish with grated parmesan.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Sophie Godwin",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Quantified cheese, basil and method-only sugar.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "creamy-mustard-gnocchi-with-broccoli-and-peas",
+    "title": "Creamy Mustard Gnocchi with Broccoli and Peas",
+    "image": null,
+    "description": "Creamy mustard gnocchi with broccoli and peas. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 518,
+    "tags": [
+      "Dinner",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "creme-fraiche",
+        "label": "Creme Fraiche",
+        "amount": 45,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "dijon-mustard",
+        "label": "Dijon Mustard",
+        "amount": 7.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "lemon",
+        "label": "Lemon",
+        "amount": 0.5,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "broccoli",
+        "label": "Broccoli",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "gnocchi",
+        "label": "Gnocchi",
+        "amount": 350,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "olive-oil",
+        "label": "Olive Oil",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "frozen-peas",
+        "label": "Frozen Peas",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Frozen",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "pine-nuts",
+        "label": "Pine Nuts",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "totalMinutes": 20
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 584,
+      "proteinG": 14,
+      "carbohydrateG": 78,
+      "fatG": 26,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/creamy-broccoli-gnocchi",
+      "notes": "Cooking allowance increased for frozen peas and heating water; spoon quantities standardized. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Mix creme fraiche with mustard and lemon juice; reserve zest. Cut broccoli into small pieces.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Boil broccoli for 3 minutes, then add gnocchi for its packet time and drain.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Heat oil in a skillet. Toss broccoli, gnocchi and peas until peas are hot throughout. Add sauce and warm gently; finish with zest and toasted pine nuts.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Sophie Godwin",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Cooking allowance increased for frozen peas and heating water; spoon quantities standardized.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "teriyaki-tofu-with-brown-rice-and-spring-onions",
+    "title": "Teriyaki Tofu with Brown Rice and Spring Onions",
+    "image": null,
+    "description": "Teriyaki tofu with brown rice and spring onions. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 408,
+    "tags": [
+      "Dinner",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "brown-rice-dried",
+        "label": "Brown Rice",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "soy-sauce",
+        "label": "Soy Sauce",
+        "amount": 50,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "mirin",
+        "label": "Mirin",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "ginger",
+        "label": "Ginger",
+        "amount": 3,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "honey",
+        "label": "Honey",
+        "amount": 5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "tofu-extra-firm",
+        "label": "Extra Firm Tofu",
+        "amount": 350,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "spring-onions",
+        "label": "Spring Onions",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "vegetable-oil",
+        "label": "Vegetable Oil",
+        "amount": 10,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "sesame-seeds",
+        "label": "Sesame Seeds",
+        "amount": 2,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "totalMinutes": 35
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 562,
+      "proteinG": 27,
+      "carbohydrateG": 77,
+      "fatG": 17,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Small saucepan",
+      "Griddle pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/charred-spring-onions-teriyaki-tofu",
+      "notes": "Uses extra-firm tofu to avoid pressing delay; spring-onion bunch quantified. Choose brown rice with a 25-minute cooking time. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Cook brown rice according to the packet. Simmer soy, mirin, grated ginger, honey and a little water for 5 minutes until lightly syrupy.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Pat extra-firm tofu dry and slice. Brush tofu and trimmed spring onions with oil, then griddle for about 4 minutes per side until browned.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Serve tofu and onions over rice with sauce and sesame seeds.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Miriam Nice",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Uses extra-firm tofu to avoid pressing delay; spring-onion bunch quantified. Choose brown rice with a 25-minute cooking time.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "cacio-e-pepe-with-lemon-rocket-salad",
+    "title": "Cacio e Pepe with Lemon Rocket Salad",
+    "image": null,
+    "description": "Cacio e pepe with lemon rocket salad. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 462,
+    "tags": [
+      "Dinner",
+      "Pasta"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "spaghetti-dried",
+        "label": "Spaghetti",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "butter",
+        "label": "Butter",
+        "amount": 25,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "black-pepper",
+        "label": "Black Pepper",
+        "amount": 2,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "pecorino",
+        "label": "Pecorino",
+        "amount": 50,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "rocket",
+        "label": "Rocket",
+        "amount": 80,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "lemon",
+        "label": "Lemon",
+        "amount": 0.5,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "olive-oil",
+        "label": "Olive Oil",
+        "amount": 10,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "totalMinutes": 25
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 615,
+      "proteinG": 22,
+      "carbohydrateG": 78,
+      "fatG": 24,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/cacio-e-pepe",
+      "notes": "Added lemon-rocket side; source cheese retained, so not labelled vegetarian. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Boil spaghetti just short of al dente, reserving a mug of starchy water. Melt butter gently in a wide pan and toast pepper briefly.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Add pasta and a little reserved water. Turn heat low, scatter finely grated pecorino over pasta, let soften, then toss into a smooth sauce. Add water gradually as needed.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Dress rocket with lemon juice and oil just before serving beside the pasta.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Good Food team",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Added lemon-rocket side; source cheese retained, so not labelled vegetarian.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "fajita-steak-with-pepper-rice-and-yogurt",
+    "title": "Fajita Steak with Pepper Rice and Yogurt",
+    "image": null,
+    "description": "Fajita steak with pepper rice and yogurt. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 991,
+    "tags": [
+      "Dinner",
+      "Beef"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "sirloin-steak",
+        "label": "Sirloin Steak",
+        "amount": 250,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "fajita-seasoning",
+        "label": "Fajita Seasoning",
+        "amount": 15,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "olive-oil",
+        "label": "Olive Oil",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "mexican-rice-ready-cooked",
+        "label": "Mexican Rice",
+        "amount": 250,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Ready Cooked",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "roasted-red-peppers",
+        "label": "Roasted Red Peppers",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "lemon",
+        "label": "Lemon",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "parsley",
+        "label": "Parsley",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "yogurt",
+        "label": "Yogurt",
+        "amount": 60,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "totalMinutes": 25
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 562,
+      "proteinG": 35,
+      "carbohydrateG": 46,
+      "fatG": 27,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan",
+      "Food thermometer"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/steak-burrito-bowl",
+      "notes": "Seasoning sachet, peppers, parsley and yogurt quantified. Allows steak resting time; uses purchased ready-cooked rice. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Coat steak with half the seasoning and oil. Sear in a hot skillet until its centre reaches 63°C, then rest for at least 3 minutes.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Lower heat and add remaining oil, seasoning, cooked rice and sliced peppers. Stir until steaming hot, adding a splash of water if dry.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Add juice from half the lemon and chopped parsley. Slice steak across the grain and serve over rice with yogurt and remaining lemon wedges.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Good Food team",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Seasoning sachet, peppers, parsley and yogurt quantified. Allows steak resting time; uses purchased ready-cooked rice.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "halloumi-beetroot-and-orange-salad-with-pita",
+    "title": "Halloumi, Beetroot and Orange Salad with Pita",
+    "image": null,
+    "description": "Halloumi, beetroot and orange salad with pita. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 1110,
+    "tags": [
+      "Dinner",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "red-onion",
+        "label": "Red Onion",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "apple-cider-vinegar",
+        "label": "Apple Cider Vinegar",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "orange",
+        "label": "Orange",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "rocket",
+        "label": "Rocket",
+        "amount": 80,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "cooked-beetroot",
+        "label": "Cooked Beetroot",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "vegetable-oil",
+        "label": "Vegetable Oil",
+        "amount": 5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "halloumi",
+        "label": "Halloumi",
+        "amount": 80,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "pomegranate-seeds",
+        "label": "Pomegranate Seeds",
+        "amount": 80,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "pumpkin-seeds",
+        "label": "Pumpkin Seeds",
+        "amount": 20,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-10",
+        "foodId": "mint",
+        "label": "Mint",
+        "amount": 5,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-11",
+        "foodId": "dill",
+        "label": "Dill",
+        "amount": 5,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-12",
+        "foodId": "pita",
+        "label": "Pita Bread",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Bakery",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 15,
+      "cookMinutes": 5,
+      "totalMinutes": 20
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 554,
+      "proteinG": 23,
+      "carbohydrateG": 77,
+      "fatG": 19,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/beetroot-halloumi-salad-pomegranate-dill",
+      "notes": "Added pita for a fuller dinner; handfuls, cooked beetroot and oil standardized. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions. A medium red onion is standardized to 150g where the source gives a count."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Thinly slice onion and soak in vinegar while preparing the rest. Peel and segment oranges over the bowl to catch juice.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Arrange rocket, chopped cooked beetroot and orange on plates. Pan-fry sliced halloumi in oil until golden on both sides; warm pita.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Stir pomegranate into the onion dressing and spoon over salad. Add halloumi, pumpkin seeds and chopped herbs; serve with pita.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Sara Buenfeld",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Added pita for a fuller dinner; handfuls, cooked beetroot and oil standardized.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "roasted-cauliflower-with-pepper-salsa-and-chickpea-couscous",
+    "title": "Roasted Cauliflower with Pepper Salsa and Chickpea Couscous",
+    "image": null,
+    "description": "Roasted cauliflower with pepper salsa and chickpea couscous. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 636,
+    "tags": [
+      "Dinner",
+      "Vegan",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "cauliflower",
+        "label": "Cauliflower",
+        "amount": 500,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "smoked-paprika",
+        "label": "Smoked Paprika",
+        "amount": 1,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "olive-oil",
+        "label": "Olive Oil",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "roasted-red-peppers",
+        "label": "Roasted Red Peppers",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "black-olives",
+        "label": "Black Olives",
+        "amount": 4,
+        "unit": "each",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "parsley",
+        "label": "Parsley",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "capers",
+        "label": "Capers",
+        "amount": 5,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "red-wine-vinegar",
+        "label": "Red Wine Vinegar",
+        "amount": 7.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "flaked-almonds",
+        "label": "Flaked Almonds",
+        "amount": 20,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-10",
+        "foodId": "couscous-dried",
+        "label": "Couscous",
+        "amount": 120,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-11",
+        "foodId": "cooked-chickpeas-drained",
+        "label": "Cooked Chickpeas",
+        "amount": 240,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Drained",
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "totalMinutes": 40
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 661,
+      "proteinG": 24,
+      "carbohydrateG": 92,
+      "fatG": 24,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Oven",
+      "Baking tray",
+      "Kettle",
+      "Heatproof bowl"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/cauliflower-steaks-roasted-red-pepper-olive-salsa",
+      "notes": "Uses weighed cauliflower including loose florets instead of reserving trimmings; added chickpea couscous. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Heat oven to 220°C conventional/200°C fan. Slice cauliflower into thick slabs and florets; use every piece. Coat with one-quarter of the oil and paprika, and roast 20–25 minutes until tender.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Cover couscous with boiling water following packet proportions. Stir in chickpeas and cover until hot; fluff.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Chop roasted pepper, olives, capers and parsley; mix with vinegar and remaining oil. Serve cauliflower over couscous with salsa and toasted almonds.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Sophie Godwin",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Uses weighed cauliflower including loose florets instead of reserving trimmings; added chickpea couscous.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "roasted-vegetable-tacos-with-smoky-kiwi-salsa",
+    "title": "Roasted Vegetable Tacos with Smoky Kiwi Salsa",
+    "image": null,
+    "description": "Roasted vegetable tacos with smoky kiwi salsa. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 634,
+    "tags": [
+      "Dinner",
+      "Vegan",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "baby-corn",
+        "label": "Baby Corn",
+        "amount": 175,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "red-onion",
+        "label": "Red Onion",
+        "amount": 190,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "bell-pepper",
+        "label": "Bell Pepper",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": "Red",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "cumin-seeds",
+        "label": "Cumin Seeds",
+        "amount": 1,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "olive-oil",
+        "label": "Olive Oil",
+        "amount": 10,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "kiwi",
+        "label": "Kiwi",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "tomato",
+        "label": "Tomatoes",
+        "amount": 115,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "wholemeal-tortillas",
+        "label": "Wholemeal Tortillas",
+        "amount": 4,
+        "unit": "each",
+        "aisle": "Bakery",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-10",
+        "foodId": "coriander",
+        "label": "Coriander",
+        "amount": 15,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-11",
+        "foodId": "vegetable-bouillon-powder",
+        "label": "Vegetable Bouillon Powder",
+        "amount": 3,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-12",
+        "foodId": "smoked-paprika",
+        "label": "Smoked Paprika",
+        "amount": 1,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-13",
+        "foodId": "red-cabbage",
+        "label": "Red Cabbage",
+        "amount": 85,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-14",
+        "foodId": "cooked-black-beans-drained",
+        "label": "Cooked Black Beans",
+        "amount": 240,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Drained",
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "totalMinutes": 45
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 586,
+      "proteinG": 25,
+      "carbohydrateG": 103,
+      "fatG": 13,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Oven",
+      "Baking tray",
+      "Blender",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/chargrilled-vegetable-tacos-smoky-salsa",
+      "notes": "Ready-made tortillas replace homemade dough to reduce active work; added black beans for a complete dinner. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions. A medium red onion is standardized to 150g where the source gives a count."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Heat oven to 220°C conventional/200°C fan. Toss sliced onion, corn and pepper with oil and cumin on a tray. Add halved kiwi and tomato; roast 20 minutes.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Remove kiwi and tomato. Roast remaining vegetables 10 minutes longer; warm drained beans separately. Peel kiwi and blend with tomato, garlic, half the coriander, bouillon and paprika.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Warm tortillas. Fill with beans, shredded cabbage, vegetables and salsa; finish with remaining coriander.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Sara Buenfeld",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Ready-made tortillas replace homemade dough to reduce active work; added black beans for a complete dinner.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "peanut-and-herb-noodles-with-edamame",
+    "title": "Peanut and Herb Noodles with Edamame",
+    "image": null,
+    "description": "Peanut and herb noodles with edamame. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 579,
+    "tags": [
+      "Dinner",
+      "Vegan",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "rice-vermicelli-dried",
+        "label": "Rice Vermicelli",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "mint",
+        "label": "Mint",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "coriander",
+        "label": "Coriander",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "basil",
+        "label": "Basil",
+        "amount": 10,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "lime",
+        "label": "Lime",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "sweet-chilli-sauce",
+        "label": "Sweet Chilli Sauce",
+        "amount": 15,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "vegetable-oil",
+        "label": "Vegetable Oil",
+        "amount": 15,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "soy-sauce",
+        "label": "Soy Sauce",
+        "amount": 15,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "cucumber",
+        "label": "Cucumber",
+        "amount": 0.6666666666666666,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": "Target Weight 200g; Count Assumes a 300g Cucumber.",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-10",
+        "foodId": "carrot",
+        "label": "Carrot",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-11",
+        "foodId": "edamame-shelled",
+        "label": "Edamame",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Frozen",
+        "originalText": null,
+        "preparation": "Shelled",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-12",
+        "foodId": "salted-peanuts",
+        "label": "Salted Peanuts",
+        "amount": 50,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-13",
+        "foodId": "sesame-seeds",
+        "label": "Sesame Seeds",
+        "amount": 5,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-14",
+        "foodId": "chilli-sauce",
+        "label": "Chilli Sauce",
+        "amount": 15,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-15",
+        "foodId": "spring-onions",
+        "label": "Spring Onions",
+        "amount": 30,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 20,
+      "cookMinutes": 10,
+      "totalMinutes": 30
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 550,
+      "proteinG": 19,
+      "carbohydrateG": 72,
+      "fatG": 24,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/peanut-herb-noodle-salad",
+      "notes": "Noodle nests and herb bunches standardized by weight. Edamame cooking included rather than assuming thawing alone is sufficient. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions. Spring onions standardized to 15g each for consistent grocery aggregation. Cucumber count assumes 300g each to match existing catalog units; weigh the target amount in preparation notes."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Prepare vermicelli as directed; drain and rinse cool. Cook edamame according to its packet and cool.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Chop herbs; mix with lime zest and juice, sweet chilli sauce, oil and soy. Dice cucumber and shave carrot into ribbons.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Toss noodles, edamame and vegetables with dressing. Top with crushed peanuts, sesame seeds, chilli sauce and sliced spring onions.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Ailsa Burt",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Noodle nests and herb bunches standardized by weight. Edamame cooking included rather than assuming thawing alone is sufficient.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "pesto-chickpea-and-mozzarella-sourdough-with-rocket",
+    "title": "Pesto Chickpea and Mozzarella Sourdough with Rocket",
+    "image": null,
+    "description": "Pesto chickpea and mozzarella sourdough with rocket. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 544,
+    "tags": [
+      "Dinner",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "cooked-chickpeas-drained",
+        "label": "Cooked Chickpeas",
+        "amount": 240,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Drained",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "lemon",
+        "label": "Lemon",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "vegetarian-green-pesto",
+        "label": "Vegetarian Green Pesto",
+        "amount": 30,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "sundried-tomatoes",
+        "label": "Sundried Tomatoes",
+        "amount": 40,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "sourdough-bread",
+        "label": "Sourdough Bread",
+        "amount": 160,
+        "unit": "g",
+        "aisle": "Bakery",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "vegetarian-mozzarella",
+        "label": "Vegetarian Mozzarella",
+        "amount": 65,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "basil",
+        "label": "Basil",
+        "amount": 5,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "rocket",
+        "label": "Rocket",
+        "amount": 60,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-10",
+        "foodId": "olive-oil",
+        "label": "Olive Oil",
+        "amount": 10,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 5,
+      "totalMinutes": 15
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 648,
+      "proteinG": 26,
+      "carbohydrateG": 77,
+      "fatG": 27,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Bowl",
+      "Fork",
+      "Toaster"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/mozzarella-pesto-chickpeas-toast",
+      "notes": "Can converted to 240g drained chickpeas; cheese, tomatoes and bread quantified. Added rocket side; lemon juice used in dressing. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Crush half the chickpeas; fold in remaining chickpeas, lemon zest, pesto and chopped sundried tomatoes.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Toast bread, then rub with cut garlic. Spoon on chickpeas and torn mozzarella; finish with basil.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Dress rocket with some lemon juice and oil and serve alongside.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Esther Clark",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Can converted to 240g drained chickpeas; cheese, tomatoes and bread quantified. Added rocket side; lemon juice used in dressing.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "lemon-spaghetti-with-asparagus-leeks-and-peas",
+    "title": "Lemon Spaghetti with Asparagus, Leeks and Peas",
+    "image": null,
+    "description": "Lemon spaghetti with asparagus, leeks and peas. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 459,
+    "tags": [
+      "Dinner",
+      "Vegan",
+      "Vegetarian"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "wholemeal-spaghetti-dried",
+        "label": "Wholemeal Spaghetti",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "asparagus",
+        "label": "Asparagus",
+        "amount": 160,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "rapeseed-oil",
+        "label": "Rapeseed Oil",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "leeks",
+        "label": "Leeks",
+        "amount": 220,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "red-chilli",
+        "label": "Red Chilli",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "frozen-peas",
+        "label": "Frozen Peas",
+        "amount": 160,
+        "unit": "g",
+        "aisle": "Frozen",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "lemon",
+        "label": "Lemon",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "totalMinutes": 25
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 481,
+      "proteinG": 19,
+      "carbohydrateG": 60,
+      "fatG": 15,
+      "source": "https://www.bbcgoodfood.com/recipes/asparagus-lemon-spaghetti-peas"
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Frying pan"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.bbcgoodfood.com/recipes/asparagus-lemon-spaghetti-peas",
+      "notes": "Timing allowance increased slightly; otherwise source quantities retained. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Cook spaghetti following packet timing, adding trimmed asparagus for the last 3 minutes. Save a little pasta water.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Meanwhile wash and thinly slice leeks. Soften in oil with chopped chilli for 5 minutes. Add grated garlic, peas, lemon zest and juice; cook until peas are hot.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Drain pasta and asparagus. Toss with vegetables and enough reserved water to coat, then serve.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Sara Buenfeld",
+      "publisher": "Good Food",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 2,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Timing allowance increased slightly; otherwise source quantities retained.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "source-reported-not-independently-verified",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "lemon-garlic-salmon-with-asparagus-tomatoes-and-bread",
+    "title": "Lemon-Garlic Salmon with Asparagus, Tomatoes and Bread",
+    "image": null,
+    "description": "Lemon-garlic salmon with asparagus, tomatoes and bread. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 1202,
+    "tags": [
+      "Dinner",
+      "Fish"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "salmon-fillet",
+        "label": "Salmon Fillet",
+        "amount": 360,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "lemon",
+        "label": "Lemon",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "olive-oil",
+        "label": "Olive Oil",
+        "amount": 25,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "dijon-mustard",
+        "label": "Dijon Mustard",
+        "amount": 2.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "asparagus",
+        "label": "Asparagus",
+        "amount": 300,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "cherry-tomatoes",
+        "label": "Cherry Tomatoes",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "parmesan",
+        "label": "Parmesan",
+        "amount": 15,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "parsley",
+        "label": "Parsley",
+        "amount": 5,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-10",
+        "foodId": "sourdough-bread",
+        "label": "Sourdough Bread",
+        "amount": 120,
+        "unit": "g",
+        "aisle": "Bakery",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "totalMinutes": 30
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 722,
+      "proteinG": 49,
+      "carbohydrateG": 43,
+      "fatG": 39,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Grater",
+      "Broiler",
+      "Broiler-safe tray",
+      "Toaster",
+      "Food thermometer"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.recipetineats.com/lemon-garlic-salmon-tray-bake-easy-healthy/",
+      "notes": "Scaled fish to two; vegetables, bread and garnish quantified. No optional advance marination. Cooking allowance accommodates appliance variation. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Preheat the oven grill/broiler on high. Mix lemon zest, a little juice, mustard, grated garlic and two-thirds of the oil; spread over salmon. Check fish reaches 63°C in the thickest part.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Coat trimmed asparagus and tomatoes with remaining oil. Arrange beside fish on a broiler-safe tray, about 20cm below heat.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Broil, checking from 10 minutes, until salmon is cooked through and vegetables tender. Finish with parmesan, parsley and remaining lemon. Toast bread and serve alongside.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Nagi Maehashi",
+      "publisher": "RecipeTin Eats",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 4,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Scaled fish to two; vegetables, bread and garnish quantified. No optional advance marination. Cooking allowance accommodates appliance variation.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  },
+  {
+    "id": "honey-garlic-chicken-with-rice-and-broccoli",
+    "title": "Honey-Garlic Chicken with Rice and Broccoli",
+    "image": null,
+    "description": "Honey-garlic chicken with rice and broccoli. A freshly cooked dinner portioned for two.",
+    "baseServings": 2,
+    "estimateMinor": 416,
+    "tags": [
+      "Dinner",
+      "Chicken"
+    ],
+    "ingredients": [
+      {
+        "id": "ingredient-1",
+        "foodId": "chicken",
+        "label": "Chicken Breast",
+        "amount": 250,
+        "unit": "g",
+        "aisle": "Protein",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-2",
+        "foodId": "plain-flour",
+        "label": "Plain Flour",
+        "amount": 15,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-3",
+        "foodId": "unsalted-butter",
+        "label": "Unsalted Butter",
+        "amount": 25,
+        "unit": "g",
+        "aisle": "Dairy",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-4",
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-5",
+        "foodId": "apple-cider-vinegar",
+        "label": "Apple Cider Vinegar",
+        "amount": 11.25,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-6",
+        "foodId": "soy-sauce",
+        "label": "Soy Sauce",
+        "amount": 7.5,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-7",
+        "foodId": "honey",
+        "label": "Honey",
+        "amount": 40,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-8",
+        "foodId": "rice",
+        "label": "Rice",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "originalText": null,
+        "preparation": "Dried",
+        "group": "Dinner",
+        "optional": false
+      },
+      {
+        "id": "ingredient-9",
+        "foodId": "broccoli",
+        "label": "Broccoli",
+        "amount": 250,
+        "unit": "g",
+        "aisle": "Produce",
+        "originalText": null,
+        "preparation": null,
+        "group": "Dinner",
+        "optional": false
+      }
+    ],
+    "schemaVersion": 2,
+    "timing": {
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "totalMinutes": 30
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 675,
+      "proteinG": 38,
+      "carbohydrateG": 98,
+      "fatG": 15,
+      "source": "Estimated from generic per-ingredient values (USDA-style averages) for the full dinner including sides; not a lab or label calculation."
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Saucepan",
+      "Steamer",
+      "Frying pan",
+      "Food thermometer"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Estimated from typical shelf prices, taking the cheapest of Star Market, Stop & Shop, Market Basket, ALDI, Target and Walmart in the Boston, MA area for each ingredient, charged in proportion to the amount used. Not live quotes.",
+      "region": "Boston, MA",
+      "asOf": "2026-11-17"
+    },
+    "source": {
+      "kind": "adapted-web-recipe",
+      "url": "https://www.recipetineats.com/honey-garlic-chicken/",
+      "notes": "Halved source main recipe; flour conversion approximate. Added measured rice and broccoli; full-meal timing replaces 12-minute main-only timing. Instructions rewritten as a concise adaptation; not kitchen-tested. Spoon volumes use 15ml tablespoons and 5ml teaspoons; weights for vague bunches/handfuls are editorial portion choices, not universal conversions."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Cook rice according to the packet. Steam broccoli until tender while the chicken cooks.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Slice chicken horizontally into thin cutlets and dust with flour. Sear in most of the butter until golden, turning once.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Lower heat; add minced garlic and remaining butter. Stir in vinegar, soy and honey; simmer until sauce coats chicken and its centre reaches 74°C. Serve with rice and broccoli.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [
+      "Scale ingredient quantities by desired servings / 2; do not scale temperature or cooking time linearly.",
+      "Use a pan large enough for a single layer; larger quantities may need batches.",
+      "Select portions before cooking. Package remainders are not guaranteed to be eliminated."
+    ],
+    "extensions": {
+      "author": "Nagi Maehashi",
+      "publisher": "RecipeTin Eats",
+      "retrievedOn": "2026-11-17",
+      "importBatch": "2026-11-17-dinners",
+      "sourceServings": 4,
+      "completeDinner": true,
+      "requiresCookedLeftovers": false,
+      "requiredAdvanceMarinationMinutes": 0,
+      "adaptationNotes": "Halved source main recipe; flour conversion approximate. Added measured rice and broccoli; full-meal timing replaces 12-minute main-only timing.",
+      "timingStatus": "Editorial estimate for complete meal, including sides; not timed in a kitchen.",
+      "nutritionStatus": "pending-calculation",
+      "imageStatus": "not-imported",
+      "rightsStatus": "Not cleared for public redistribution; source attribution retained.",
+      "reviewStatus": "source-reviewed-not-kitchen-tested",
+      "seasoning": "Salt and pepper may be adjusted to taste; unmeasured seasoning is excluded from grocery quantities.",
+      "foodSafetyReference": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    }
+  }
+]

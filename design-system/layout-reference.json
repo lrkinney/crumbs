@@ -1,0 +1,56 @@
+{
+  "fileKey": "61rO5dmZy6bsxQXUkKw0SH",
+  "source": "Live Figma nodes read without editing the document",
+  "canvas": [
+    402,
+    874
+  ],
+  "browse": {
+    "nodeId": "15:1203",
+    "gridWidth": 362,
+    "gridGap": 24,
+    "tileWidth": 169,
+    "tileGap": 12,
+    "tilePadding": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "titleSize": 36
+  },
+  "navigation": {
+    "nodeId": "15:1230",
+    "padding": [
+      16,
+      20,
+      16,
+      20
+    ]
+  },
+  "recipe": {
+    "nodeId": "11:739",
+    "plateSize": [
+      233,
+      233
+    ],
+    "servingCounterWidth": 146
+  },
+  "sources": {
+    "Home empty": "316:27238",
+    "Home active": "299:17217",
+    "Plan landing": "155:1633",
+    "Current Plan": "52:2570",
+    "Shopping List": "21:1677",
+    "Pantry": "299:18979",
+    "Add food": "299:19178",
+    "Cook": "299:19554",
+    "Cooking guide": "299:19891",
+    "Your kitchen": "299:20230",
+    "Welcome": "316:26815",
+    "Profile onboarding": "121:2097",
+    "Dietary preferences": "121:2146",
+    "Budget onboarding": "121:2383",
+    "Portions onboarding": "121:2456"
+  }
+}

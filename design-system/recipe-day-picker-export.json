@@ -1,0 +1,31 @@
+{
+  "generated": "2026-11-03",
+  "supersededBy": "plan-day-overview-export.json",
+  "dialogs": [
+    {
+      "id": "372:24779",
+      "name": "Choose day \u00b7 Recipe"
+    },
+    {
+      "id": "372:24806",
+      "name": "Choose day \u00b7 Recipe - Overlap"
+    },
+    {
+      "id": "372:24833",
+      "name": "Choose day \u00b7 Recipe \u00b7 Sheet-pan Chicken Souvlaki"
+    },
+    {
+      "id": "372:24859",
+      "name": "Choose day \u00b7 Recipe \u00b7 Tomato-Lentil Ratatouille"
+    },
+    {
+      "id": "372:24885",
+      "name": "Choose day \u00b7 Recipe \u00b7 Tofu & Zucchini Piccata"
+    },
+    {
+      "id": "372:24911",
+      "name": "Choose day \u00b7 Recipe \u00b7 Spiced Chicken & Feta Toasts"
+    }
+  ],
+  "behavior": "Select a date to expand the existing planned meals with 40px images and recipe names. Confirm explicitly. Confirmation replaces the picker contents inside the same open modal; no second overlay navigation."
+}

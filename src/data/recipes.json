@@ -1,0 +1,688 @@
+[
+  {
+    "id": "honey-sriracha-chicken",
+    "title": "Honey Sriracha Chicken & Asparagus",
+    "image": "chicken",
+    "description": "This honey sriracha chicken is sweet, sticky, and a little spicy, with a juicy inside. It’s so easy to make, with simple ingredients!",
+    "baseServings": 2,
+    "estimateMinor": 1060,
+    "tags": [
+      "High protein",
+      "30 minutes"
+    ],
+    "ingredients": [
+      {
+        "foodId": "chicken",
+        "label": "Chicken breast",
+        "amount": 300,
+        "unit": "g",
+        "aisle": "Protein",
+        "id": "ingredient-1",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "rice",
+        "label": "Rice",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "id": "ingredient-2",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "sriracha",
+        "label": "Sriracha",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "id": "ingredient-3",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "honey",
+        "label": "Honey",
+        "amount": 30,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "id": "ingredient-4",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "asparagus",
+        "label": "Asparagus",
+        "amount": 200,
+        "unit": "g",
+        "aisle": "Produce",
+        "id": "ingredient-5",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Produce",
+        "id": "ingredient-6",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      }
+    ],
+    "schemaVersion": 1,
+    "timing": {
+      "prepMinutes": 5,
+      "cookMinutes": 25,
+      "totalMinutes": 30
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": 592,
+      "proteinG": null,
+      "carbohydrateG": null,
+      "fatG": null,
+      "source": "Prototype content; unverified"
+    },
+    "equipment": [
+      "Knife",
+      "Cutting board",
+      "Mixing bowl",
+      "Pan",
+      "Pot"
+    ],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Existing prototype estimate",
+      "region": null,
+      "asOf": null
+    },
+    "source": {
+      "kind": "prototype",
+      "url": null,
+      "notes": "Existing illustrative content; review ingredients and cooking instructions before publication."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Gather and measure the ingredients. Rinse the rice and prepare the vegetables.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Cook the rice according to its package directions.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Prepare the chicken using a trusted cooking method and check doneness with a food thermometer.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-4",
+        "text": "Combine honey and sriracha, coat the cooked chicken, and serve with rice and cooked asparagus.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [],
+    "extensions": {}
+  },
+  {
+    "id": "chicken-souvlaki",
+    "title": "Sheet-pan Chicken Souvlaki",
+    "image": "souvlaki",
+    "description": "Lemony chicken, warm pita, and a fresh cucumber crunch.",
+    "baseServings": 2,
+    "estimateMinor": 920,
+    "tags": [
+      "High protein",
+      "Mediterranean"
+    ],
+    "ingredients": [
+      {
+        "foodId": "chicken",
+        "label": "Chicken breast",
+        "amount": 300,
+        "unit": "g",
+        "aisle": "Protein",
+        "id": "ingredient-1",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Produce",
+        "id": "ingredient-2",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "olive-oil",
+        "label": "Olive oil",
+        "amount": 20,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "id": "ingredient-3",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "pita",
+        "label": "Pita bread",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Bakery",
+        "id": "ingredient-4",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "cucumber",
+        "label": "Cucumber",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "id": "ingredient-5",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "yogurt",
+        "label": "Greek yogurt",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Dairy",
+        "id": "ingredient-6",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "lemon",
+        "label": "Lemon",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "id": "ingredient-7",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      }
+    ],
+    "schemaVersion": 1,
+    "timing": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": 35
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": null,
+      "proteinG": null,
+      "carbohydrateG": null,
+      "fatG": null,
+      "source": "Prototype content; unverified"
+    },
+    "equipment": [],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Existing prototype estimate",
+      "region": null,
+      "asOf": null
+    },
+    "source": {
+      "kind": "prototype",
+      "url": null,
+      "notes": "Existing illustrative content; review ingredients and cooking instructions before publication."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Gather the ingredients and prepare the cucumber and lemon.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Season the chicken with lemon, garlic, and olive oil.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Cook the chicken using a trusted cooking method and verify doneness.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-4",
+        "text": "Warm the pita and assemble with chicken, cucumber, and yogurt.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [],
+    "extensions": {}
+  },
+  {
+    "id": "tomato-lentil-ratatouille",
+    "title": "Tomato-Lentil Ratatouille",
+    "image": "ratatouille",
+    "description": "A generous pan of colorful vegetables and comforting lentils.",
+    "baseServings": 2,
+    "estimateMinor": 640,
+    "tags": [
+      "Vegetarian",
+      "Vegan",
+      "One pot"
+    ],
+    "ingredients": [
+      {
+        "foodId": "lentils",
+        "label": "Cooked lentils",
+        "amount": 400,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "id": "ingredient-1",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "tomato",
+        "label": "Tomatoes",
+        "amount": 400,
+        "unit": "g",
+        "aisle": "Produce",
+        "id": "ingredient-2",
+        "originalText": null,
+        "preparation": "chopped",
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "zucchini",
+        "label": "Zucchini",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "id": "ingredient-3",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "eggplant",
+        "label": "Eggplant",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "id": "ingredient-4",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Produce",
+        "id": "ingredient-5",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "olive-oil",
+        "label": "Olive oil",
+        "amount": 20,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "id": "ingredient-6",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      }
+    ],
+    "schemaVersion": 1,
+    "timing": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": 40
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": null,
+      "proteinG": null,
+      "carbohydrateG": null,
+      "fatG": null,
+      "source": "Prototype content; unverified"
+    },
+    "equipment": [],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Existing prototype estimate",
+      "region": null,
+      "asOf": null
+    },
+    "source": {
+      "kind": "prototype",
+      "url": null,
+      "notes": "Existing illustrative content; review ingredients and cooking instructions before publication."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Chop the vegetables into evenly sized pieces.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Soften the garlic in olive oil in a large pan.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Add the vegetables and tomatoes; simmer until the vegetables are tender.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-4",
+        "text": "Stir in cooked lentils, heat through, and season to taste.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [],
+    "extensions": {}
+  },
+  {
+    "id": "tofu-piccata",
+    "title": "Tofu & Zucchini Piccata",
+    "image": "tofu",
+    "description": "Golden tofu with a bright lemon sauce and fluffy rice.",
+    "baseServings": 2,
+    "estimateMinor": 720,
+    "tags": [
+      "Vegetarian",
+      "Vegan",
+      "Quick"
+    ],
+    "ingredients": [
+      {
+        "foodId": "tofu",
+        "label": "Firm tofu",
+        "amount": 300,
+        "unit": "g",
+        "aisle": "Protein",
+        "id": "ingredient-1",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "rice",
+        "label": "Rice",
+        "amount": 150,
+        "unit": "g",
+        "aisle": "Cupboard",
+        "id": "ingredient-2",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "lemon",
+        "label": "Lemon",
+        "amount": 1,
+        "unit": "each",
+        "aisle": "Produce",
+        "id": "ingredient-3",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Produce",
+        "id": "ingredient-4",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "olive-oil",
+        "label": "Olive oil",
+        "amount": 20,
+        "unit": "ml",
+        "aisle": "Cupboard",
+        "id": "ingredient-5",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      }
+    ],
+    "schemaVersion": 1,
+    "timing": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": 25
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": null,
+      "proteinG": null,
+      "carbohydrateG": null,
+      "fatG": null,
+      "source": "Prototype content; unverified"
+    },
+    "equipment": [],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Existing prototype estimate",
+      "region": null,
+      "asOf": null
+    },
+    "source": {
+      "kind": "prototype",
+      "url": null,
+      "notes": "Existing illustrative content; review ingredients and cooking instructions before publication."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Drain the tofu and cut it into slices.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Cook rice according to package directions.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Pan-fry the tofu in olive oil until golden on both sides.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-4",
+        "text": "Add lemon and garlic to the pan, then serve the tofu and sauce with rice.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [],
+    "extensions": {}
+  },
+  {
+    "id": "spiced-chicken-feta-toasts",
+    "title": "Spiced Chicken & Feta Toasts",
+    "image": "toasts",
+    "description": "Spiced chicken, fresh tomatoes, and feta on warm toast.",
+    "baseServings": 2,
+    "estimateMinor": 800,
+    "tags": [
+      "High protein",
+      "Quick"
+    ],
+    "ingredients": [
+      {
+        "foodId": "chicken",
+        "label": "Chicken breast",
+        "amount": 300,
+        "unit": "g",
+        "aisle": "Protein",
+        "id": "ingredient-1",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "garlic",
+        "label": "Garlic",
+        "amount": 2,
+        "unit": "each",
+        "aisle": "Produce",
+        "id": "ingredient-2",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "bread",
+        "label": "Bread",
+        "amount": 4,
+        "unit": "each",
+        "aisle": "Bakery",
+        "id": "ingredient-3",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "feta",
+        "label": "Feta",
+        "amount": 60,
+        "unit": "g",
+        "aisle": "Dairy",
+        "id": "ingredient-4",
+        "originalText": null,
+        "preparation": null,
+        "group": null,
+        "optional": false
+      },
+      {
+        "foodId": "tomato",
+        "label": "Tomatoes",
+        "amount": 100,
+        "unit": "g",
+        "aisle": "Produce",
+        "id": "ingredient-5",
+        "originalText": null,
+        "preparation": "chopped",
+        "group": null,
+        "optional": false
+      }
+    ],
+    "schemaVersion": 1,
+    "timing": {
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "totalMinutes": 25
+    },
+    "nutrition": {
+      "basis": "per-serving",
+      "calories": null,
+      "proteinG": null,
+      "carbohydrateG": null,
+      "fatG": null,
+      "source": "Prototype content; unverified"
+    },
+    "equipment": [],
+    "cost": {
+      "currency": "USD",
+      "basis": "base-recipe",
+      "estimated": true,
+      "source": "Existing prototype estimate",
+      "region": null,
+      "asOf": null
+    },
+    "source": {
+      "kind": "prototype",
+      "url": null,
+      "notes": "Existing illustrative content; review ingredients and cooking instructions before publication."
+    },
+    "instructionDetails": [
+      {
+        "id": "step-1",
+        "text": "Gather and measure your ingredients.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-2",
+        "text": "Season and cook the chicken using your preferred tested recipe method.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-3",
+        "text": "Toast the bread and prepare the tomatoes and feta.",
+        "ingredientIds": []
+      },
+      {
+        "id": "step-4",
+        "text": "Assemble the toasts and serve.",
+        "ingredientIds": []
+      }
+    ],
+    "scalingNotes": [],
+    "extensions": {}
+  }
+]

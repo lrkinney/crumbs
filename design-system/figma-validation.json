@@ -1,0 +1,56 @@
+{
+  "generated": "2026-10-19",
+  "fileKey": "61rO5dmZy6bsxQXUkKw0SH",
+  "textCountBefore": 2474,
+  "textCountAfter": 2474,
+  "textChanges": 0,
+  "missingPrototypeSources": [],
+  "changedPrototypeSources": [],
+  "prototypeSourcesBefore": 1236,
+  "currentNodeActions": 1163,
+  "invalidDestinations": [],
+  "screenIdsPreserved": true,
+  "flowStartsPreserved": true,
+  "modalDestinationPreserved": true,
+  "backups": [
+    {
+      "id": "316:26800",
+      "name": "97 · Backup · Before design system · 2026-10-19",
+      "locked": true
+    },
+    {
+      "id": "316:35867",
+      "name": "97b · Backup · Component masters · 2026-10-19",
+      "locked": true
+    }
+  ],
+  "mappingCount": 3932,
+  "bindingAudit": {
+    "counts": {
+      "text": 2820,
+      "textBound": 2820,
+      "padding": 13468,
+      "paddingBound": 13468,
+      "gap": 3367,
+      "gapBound": 3367,
+      "radius": 4244,
+      "radiusBound": 4244,
+      "solidPaints": 4490,
+      "solidPaintsBound": 4490,
+      "interfaceShadows": 332,
+      "interfaceShadowsBound": 332,
+      "intrinsicNodes": 6473
+    },
+    "exceptions": [
+      "Intrinsic artwork geometry/pixels and art shadows",
+      "Canvas positioning and section/variant-set editor decorations",
+      "Prototype-only overlay placement and custom keyboard adapter"
+    ],
+    "issues": []
+  },
+  "notes": [
+    "UI components and all meaningful inspected visual properties use variables.",
+    "Layout-only screen/scroll/list containers remain frames; reusable UI is instantiated.",
+    "Native browser tests could not execute in the managed environment; see browser-validation.json."
+  ]
+}

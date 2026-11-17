@@ -1,0 +1,10 @@
+{
+  "passed": null,
+  "status": "not completed in the managed workspace",
+  "attempts": [
+    "Local preview server: listen EPERM on 127.0.0.1",
+    "Offline Chrome over DevTools pipe: browser exited with SIGABRT before tests"
+  ],
+  "runLocally": "node tests/browser.mjs",
+  "note": "Figma screenshots and data/prototype integrity checks were completed separately. Browser accessibility and responsiveness assertions are provided but not claimed to have passed."
+}

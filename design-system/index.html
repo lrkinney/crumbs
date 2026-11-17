@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>CRUMBS component reference</title>
+  <link rel="stylesheet" href="components.css">
+  <style>
+    .reference { max-width: 72rem; margin: auto; padding: var(--crumbs-space-32) var(--crumbs-screen-gutter); }
+    .reference header { display: grid; gap: var(--crumbs-space-12); margin-bottom: var(--crumbs-space-32); }
+    .reference-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,20rem),1fr)); gap: var(--crumbs-space-24); }
+    .reference-group { display:flex; flex-direction:column; gap:var(--crumbs-space-16); }
+    .reference-status { margin-top: var(--crumbs-space-24); min-height: var(--crumbs-space-24); }
+  </style>
+</head>
+<body>
+  <main class="reference">
+    <header><h1 class="cr-type cr-type--display">CRUMBS / Components</h1><p class="cr-type cr-type--body">Live code examples built from the exported Figma tokens. Use Tab, Shift+Tab, Enter, Space, and Escape.</p><p class="cr-type cr-type--small">The exact Lingo and Matter font files are not bundled. Local fonts or the documented fallbacks will render.</p></header>
+    <div id="examples" class="reference-grid"></div>
+    <p id="status" class="reference-status cr-type cr-type--body" role="status" aria-live="polite">Ready to explore.</p>
+  </main>
+  <script type="module" src="preview.mjs"></script>
+</body>
+</html>

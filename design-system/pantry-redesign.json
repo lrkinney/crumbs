@@ -1,0 +1,127 @@
+{
+  "status": "Figma and Expo implemented; Figma visually checked",
+  "figmaScreen": "299:18979",
+  "referenceIngredientsScreen": "16:1301",
+  "layout": {
+    "referenceWidth": 362,
+    "columns": [
+      "food artwork",
+      "name and storage",
+      "chevron"
+    ],
+    "artwork": 48,
+    "chevron": 24,
+    "rowPadding": [
+      4,
+      0,
+      4,
+      0
+    ],
+    "columnGap": 16,
+    "categoryGap": 8,
+    "sectionGap": 24,
+    "rowBackground": "transparent",
+    "chevronFrame": 40,
+    "chevronPadding": 8
+  },
+  "categories": [
+    "Protein",
+    "Condiments",
+    "Produce",
+    "Grains & Bread",
+    "Dairy"
+  ],
+  "preserved": [
+    "screen heading",
+    "use-soon card",
+    "Add food action",
+    "whole-row edit action"
+  ],
+  "fallback": "Other aisle categories remain visible; unknown foods receive a generic food icon",
+  "figmaRowComponent": "361:19640",
+  "figmaFullContentPreview": "361:19727",
+  "validation": {
+    "rows": [
+      {
+        "id": "361:19654",
+        "name": "Chicken breast",
+        "width": 362,
+        "height": 56,
+        "editDestinations": [
+          "299:19453"
+        ]
+      },
+      {
+        "id": "361:19669",
+        "name": "Olive oil",
+        "width": 362,
+        "height": 56,
+        "editDestinations": [
+          "299:19453"
+        ]
+      },
+      {
+        "id": "361:19684",
+        "name": "Garlic",
+        "width": 362,
+        "height": 56,
+        "editDestinations": [
+          "299:19453"
+        ]
+      },
+      {
+        "id": "361:19699",
+        "name": "Rice",
+        "width": 362,
+        "height": 56,
+        "editDestinations": [
+          "299:19453"
+        ]
+      },
+      {
+        "id": "361:19713",
+        "name": "Most recently updated",
+        "width": 362,
+        "height": 56,
+        "editDestinations": [
+          "299:19453"
+        ]
+      }
+    ],
+    "widths": [
+      {
+        "width": 280,
+        "height": 56,
+        "chevronFrameWidth": 40,
+        "chevronWidth": 24,
+        "padding": 8,
+        "rightEdge": 280,
+        "inside": true
+      },
+      {
+        "width": 320,
+        "height": 56,
+        "chevronFrameWidth": 40,
+        "chevronWidth": 24,
+        "padding": 8,
+        "rightEdge": 320,
+        "inside": true
+      },
+      {
+        "width": 362,
+        "height": 56,
+        "chevronFrameWidth": 40,
+        "chevronWidth": 24,
+        "padding": 8,
+        "rightEdge": 362,
+        "inside": true
+      }
+    ],
+    "headerPreserved": true,
+    "useSoonPreserved": true,
+    "addFoodPreserved": true,
+    "deviceInteractionTested": false
+  },
+  "referenceBackupIngredientsScreen": "316:27481",
+  "quantityDisplay": "Food details screen only; pantry rows show a chevron in place of the quantity"
+}

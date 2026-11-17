@@ -1,0 +1,1194 @@
+[
+  {
+    "foodId": "apple-cider-vinegar",
+    "label": "Apple Cider Vinegar",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "asparagus",
+    "label": "Asparagus",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "baby-corn",
+    "label": "Baby Corn",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "basa-fillet",
+    "label": "Basa Fillet",
+    "unit": "g",
+    "aisle": "Protein",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "basil",
+    "label": "Basil",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "beansprouts",
+    "label": "Beansprouts",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "bell-pepper",
+    "label": "Bell Pepper",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "birds-eye-chilli",
+    "label": "Birds Eye Chilli",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "black-olives",
+    "label": "Black Olives",
+    "unit": "each",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "black-pepper",
+    "label": "Black Pepper",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "black-sesame-seeds",
+    "label": "Black Sesame Seeds",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "bread",
+    "label": "Bread",
+    "unit": "each",
+    "aisle": "Bakery",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "broccoli",
+    "label": "Broccoli",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "brown-rice-dried",
+    "label": "Brown Rice",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "brown-sugar",
+    "label": "Brown Sugar",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "butter",
+    "label": "Butter",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "canned-cherry-tomatoes",
+    "label": "Canned Cherry Tomatoes",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "capers",
+    "label": "Capers",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "carrot",
+    "label": "Carrot",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "cauliflower",
+    "label": "Cauliflower",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "cherry-tomatoes",
+    "label": "Cherry Tomatoes",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "chicken",
+    "label": "Chicken Breast",
+    "unit": "g",
+    "aisle": "Protein",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "chicken-thigh-boneless",
+    "label": "Chicken Thigh",
+    "unit": "g",
+    "aisle": "Protein",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "chilli-sauce",
+    "label": "Chilli Sauce",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "chives",
+    "label": "Chives",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "chorizo",
+    "label": "Chorizo",
+    "unit": "g",
+    "aisle": "Protein",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "coconut-aminos",
+    "label": "Coconut Aminos",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "coconut-milk",
+    "label": "Coconut Milk",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "cooked-beetroot",
+    "label": "Cooked Beetroot",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "cooked-black-beans-drained",
+    "label": "Cooked Black Beans",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "cooked-chickpeas-drained",
+    "label": "Cooked Chickpeas",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "coriander",
+    "label": "Coriander",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "couscous-dried",
+    "label": "Couscous",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "creme-fraiche",
+    "label": "Creme Fraiche",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "crispy-chilli-oil",
+    "label": "Crispy Chilli Oil",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "cucumber",
+    "label": "Cucumber",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "cumin-seeds",
+    "label": "Cumin Seeds",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "dashi-stock",
+    "label": "Dashi Stock",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "dijon-mustard",
+    "label": "Dijon Mustard",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "dill",
+    "label": "Dill",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "dried-oregano",
+    "label": "Dried Oregano",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "dried-thyme",
+    "label": "Dried Thyme",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "edamame-shelled",
+    "label": "Edamame",
+    "unit": "g",
+    "aisle": "Frozen",
+    "storage": "freezer",
+    "image": null
+  },
+  {
+    "foodId": "egg-noodles-dried",
+    "label": "Egg Noodles",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "egg-noodles-ready-cooked",
+    "label": "Egg Noodles",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "eggplant",
+    "label": "Eggplant",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "eggs",
+    "label": "Eggs",
+    "unit": "each",
+    "aisle": "Protein",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "tofu-extra-firm",
+    "label": "Extra Firm Tofu",
+    "unit": "g",
+    "aisle": "Protein",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "fajita-seasoning",
+    "label": "Fajita Seasoning",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "feta",
+    "label": "Feta",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "tofu",
+    "label": "Firm Tofu",
+    "unit": "g",
+    "aisle": "Protein",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "fish-sauce",
+    "label": "Fish Sauce",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "flaked-almonds",
+    "label": "Flaked Almonds",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "frozen-peas",
+    "label": "Frozen Peas",
+    "unit": "g",
+    "aisle": "Frozen",
+    "storage": "freezer",
+    "image": null
+  },
+  {
+    "foodId": "garlic",
+    "label": "Garlic",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "garlic-herb-cream-cheese",
+    "label": "Garlic Herb Cream Cheese",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "ginger",
+    "label": "Ginger",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "gnocchi",
+    "label": "Gnocchi",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "yogurt",
+    "label": "Greek Yogurt",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "green-beans",
+    "label": "Green Beans",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "halloumi",
+    "label": "Halloumi",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "honey",
+    "label": "Honey",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "japanese-rice-dried",
+    "label": "Japanese Rice",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "jasmine-rice-dried",
+    "label": "Jasmine Rice",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "kiwi",
+    "label": "Kiwi",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "leeks",
+    "label": "Leeks",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "lemon",
+    "label": "Lemon",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "lentils",
+    "label": "Lentils",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "light-soy-sauce",
+    "label": "Light Soy Sauce",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "lime",
+    "label": "Lime",
+    "unit": "each",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "lime-juice",
+    "label": "Lime Juice",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "low-sodium-soy-sauce",
+    "label": "Low Sodium Soy Sauce",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "makrut-lime-leaves",
+    "label": "Makrut Lime Leaves",
+    "unit": "each",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "mexican-rice-ready-cooked",
+    "label": "Mexican Rice",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "mint",
+    "label": "Mint",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "mirin",
+    "label": "Mirin",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "olive-oil",
+    "label": "Olive Oil",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "onion",
+    "label": "Onion",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "orange",
+    "label": "Orange",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "oyster-sauce",
+    "label": "Oyster Sauce",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "pak-choi",
+    "label": "Pak Choi",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "panang-curry-paste",
+    "label": "Panang Curry Paste",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "paprika",
+    "label": "Paprika",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "parmesan",
+    "label": "Parmesan",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "parsley",
+    "label": "Parsley",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "pecorino",
+    "label": "Pecorino",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "penne-dried",
+    "label": "Penne",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "pickled-chilli-peppers",
+    "label": "Pickled Chilli Peppers",
+    "unit": "each",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "pine-nuts",
+    "label": "Pine Nuts",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "pita",
+    "label": "Pita Bread",
+    "unit": "each",
+    "aisle": "Bakery",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "plain-flour",
+    "label": "Plain Flour",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "pomegranate-seeds",
+    "label": "Pomegranate Seeds",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "potatoes",
+    "label": "Potatoes",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "prawns-raw-peeled",
+    "label": "Prawns",
+    "unit": "g",
+    "aisle": "Protein",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "prepared-chargrilled-vegetables",
+    "label": "Prepared Chargrilled Vegetables",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "pumpkin-seeds",
+    "label": "Pumpkin Seeds",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "radishes",
+    "label": "Radishes",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "rapeseed-oil",
+    "label": "Rapeseed Oil",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "red-cabbage",
+    "label": "Red Cabbage",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "red-chilli",
+    "label": "Red Chilli",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "red-onion",
+    "label": "Red Onion",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "red-wine-vinegar",
+    "label": "Red Wine Vinegar",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "reduced-fat-creme-fraiche",
+    "label": "Reduced Fat Creme Fraiche",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "rice",
+    "label": "Rice",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "rice-noodles-ready-cooked",
+    "label": "Rice Noodles",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "rice-vermicelli-dried",
+    "label": "Rice Vermicelli",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "rice-vinegar",
+    "label": "Rice Vinegar",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "roasted-peanuts",
+    "label": "Roasted Peanuts",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "roasted-red-peppers",
+    "label": "Roasted Red Peppers",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "rocket",
+    "label": "Rocket",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "sake",
+    "label": "Sake",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "salmon-fillet",
+    "label": "Salmon Fillet",
+    "unit": "g",
+    "aisle": "Protein",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "salted-butter",
+    "label": "Salted Butter",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "salted-peanuts",
+    "label": "Salted Peanuts",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "sesame-oil",
+    "label": "Sesame Oil",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "sesame-seeds",
+    "label": "Sesame Seeds",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "sichuan-peppercorns",
+    "label": "Sichuan Peppercorns",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "sirloin-steak",
+    "label": "Sirloin Steak",
+    "unit": "g",
+    "aisle": "Protein",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "smoked-paprika",
+    "label": "Smoked Paprika",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "snow-peas",
+    "label": "Snow Peas",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "soba-noodles-dried",
+    "label": "Soba Noodles",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "sourdough-bread",
+    "label": "Sourdough Bread",
+    "unit": "g",
+    "aisle": "Bakery",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "soy-sauce",
+    "label": "Soy Sauce",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "spaghetti-dried",
+    "label": "Spaghetti",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "spinach",
+    "label": "Spinach",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "spring-onions",
+    "label": "Spring Onions",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "sriracha",
+    "label": "Sriracha",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "sugar",
+    "label": "Sugar",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "sundried-tomatoes",
+    "label": "Sundried Tomatoes",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "sweet-chilli-sauce",
+    "label": "Sweet Chilli Sauce",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "tahini",
+    "label": "Tahini",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "thai-basil",
+    "label": "Thai Basil",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "togarashi",
+    "label": "Togarashi",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "tomato",
+    "label": "Tomatoes",
+    "unit": "g",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "udon-noodles-ready-cooked",
+    "label": "Udon Noodles",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "unsalted-butter",
+    "label": "Unsalted Butter",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "vegetable-bouillon-powder",
+    "label": "Vegetable Bouillon Powder",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "vegetable-oil",
+    "label": "Vegetable Oil",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "vegetable-stock",
+    "label": "Vegetable Stock",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "vegetarian-green-pesto",
+    "label": "Vegetarian Green Pesto",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "vegetarian-hard-cheese",
+    "label": "Vegetarian Hard Cheese",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "vegetarian-kimchi",
+    "label": "Vegetarian Kimchi",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "vegetarian-mozzarella",
+    "label": "Vegetarian Mozzarella",
+    "unit": "g",
+    "aisle": "Dairy",
+    "storage": "fridge",
+    "image": null
+  },
+  {
+    "foodId": "vegetarian-red-pesto",
+    "label": "Vegetarian Red Pesto",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "wasabi",
+    "label": "Wasabi",
+    "unit": "ml",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "wholemeal-spaghetti-dried",
+    "label": "Wholemeal Spaghetti",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "wholemeal-tortillas",
+    "label": "Wholemeal Tortillas",
+    "unit": "each",
+    "aisle": "Bakery",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "wide-rice-noodles-dried",
+    "label": "Wide Rice Noodles",
+    "unit": "g",
+    "aisle": "Cupboard",
+    "storage": "cupboard",
+    "image": null
+  },
+  {
+    "foodId": "zucchini",
+    "label": "Zucchini",
+    "unit": "each",
+    "aisle": "Produce",
+    "storage": "fridge",
+    "image": null
+  }
+]

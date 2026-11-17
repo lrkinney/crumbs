@@ -1,0 +1,25 @@
+{
+  "scope": "Four specific text/background pairs; not a full accessibility audit.",
+  "checks": [
+    {
+      "foreground": "semantic.color.text.on-action",
+      "background": "semantic.color.action.primary",
+      "ratio": 8.13
+    },
+    {
+      "foreground": "semantic.color.text.primary",
+      "background": "semantic.color.action.primary-hover",
+      "ratio": 4.78
+    },
+    {
+      "foreground": "semantic.color.text.on-action",
+      "background": "semantic.color.action.primary-pressed",
+      "ratio": 13.1
+    },
+    {
+      "foreground": "semantic.color.text.primary",
+      "background": "semantic.color.surface.card",
+      "ratio": 16.09
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "title",
+      "image",
+      "description",
+      "baseServings",
+      "estimateMinor",
+      "tags",
+      "ingredients",
+      "schemaVersion",
+      "timing",
+      "nutrition",
+      "equipment",
+      "cost",
+      "source",
+      "instructionDetails",
+      "scalingNotes",
+      "extensions"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "image": {
+        "enum": [
+          "chicken",
+          "souvlaki",
+          "ratatouille",
+          "tofu",
+          "toasts"
+        ]
+      },
+      "description": {
+        "type": "string"
+      },
+      "baseServings": {
+        "type": "number",
+        "exclusiveMinimum": 0
+      },
+      "estimateMinor": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "ingredients": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "foodId",
+            "label",
+            "amount",
+            "unit",
+            "aisle",
+            "id",
+            "originalText",
+            "preparation",
+            "group",
+            "optional"
+          ],
+          "properties": {
+            "foodId": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            },
+            "amount": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "unit": {
+              "enum": [
+                "g",
+                "ml",
+                "each"
+              ]
+            },
+            "aisle": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "originalText": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "preparation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "group": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "optional": {
+              "type": "boolean"
+            }
+          }
+        },
+        "minItems": 1
+      },
+      "schemaVersion": {
+        "const": 1
+      },
+      "timing": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "prepMinutes",
+          "cookMinutes",
+          "totalMinutes"
+        ],
+        "properties": {
+          "prepMinutes": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "cookMinutes": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "totalMinutes": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          }
+        }
+      },
+      "nutrition": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "basis",
+          "calories",
+          "proteinG",
+          "carbohydrateG",
+          "fatG",
+          "source"
+        ],
+        "properties": {
+          "basis": {
+            "type": "string"
+          },
+          "calories": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "proteinG": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "carbohydrateG": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "fatG": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "source": {
+            "type": "string"
+          }
+        }
+      },
+      "equipment": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "cost": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "currency",
+          "basis",
+          "estimated",
+          "source",
+          "region",
+          "asOf"
+        ],
+        "properties": {
+          "currency": {
+            "type": "string"
+          },
+          "basis": {
+            "type": "string"
+          },
+          "estimated": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "string"
+          },
+          "region": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "asOf": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "source": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "kind",
+          "url",
+          "notes"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string"
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      },
+      "instructionDetails": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "text",
+            "ingredientIds"
+          ],
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "ingredientIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "minItems": 1
+      },
+      "scalingNotes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "extensions": {
+        "type": "object"
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

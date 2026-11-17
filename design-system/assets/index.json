@@ -1,0 +1,384 @@
+[
+  {
+    "id": "78:3643",
+    "name": "reicon:arrow-left",
+    "path": "assets/reicon-arrow-left-78-3643.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-78-3643"
+  },
+  {
+    "id": "72:3430",
+    "name": "Icon Default Button=2",
+    "path": "assets/icon-default-button-2-72-3430.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-72-3430"
+  },
+  {
+    "id": "72:3527",
+    "name": "Icon Default Button=Button 1",
+    "path": "assets/icon-default-button-button-1-72-3527.svg",
+    "format": "svg",
+    "monochrome": false,
+    "sprite": "assets/icons.svg#icon-72-3527"
+  },
+  {
+    "id": "78:3752",
+    "name": "reicon:share",
+    "path": "assets/reicon-share-78-3752.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-78-3752"
+  },
+  {
+    "id": "78:3856",
+    "name": "reicon:sliders",
+    "path": "assets/reicon-sliders-78-3856.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-78-3856"
+  },
+  {
+    "id": "96:771",
+    "name": "Overlap Label/streamline-flex:show-layer",
+    "path": "assets/overlap-label-streamline-flex-show-layer-96-771.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-96-771"
+  },
+  {
+    "id": "100:800",
+    "name": "CRUMBS/Icon/User",
+    "path": "assets/crumbs-icon-user-100-800.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-100-800"
+  },
+  {
+    "id": "100:805",
+    "name": "CRUMBS/Icon/Search",
+    "path": "assets/crumbs-icon-search-100-805.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-100-805"
+  },
+  {
+    "id": "100:775",
+    "name": "CRUMBS/Icon/Home State=Default",
+    "path": "assets/crumbs-icon-home-state-default-100-775.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-100-775"
+  },
+  {
+    "id": "103:771",
+    "name": "CRUMBS/Icon/Home State=Selected",
+    "path": "assets/crumbs-icon-home-state-selected-103-771.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-103-771"
+  },
+  {
+    "id": "100:780",
+    "name": "CRUMBS/Icon/Plan State=Default",
+    "path": "assets/crumbs-icon-plan-state-default-100-780.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-100-780"
+  },
+  {
+    "id": "103:777",
+    "name": "CRUMBS/Icon/Plan State=Selected",
+    "path": "assets/crumbs-icon-plan-state-selected-103-777.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-103-777"
+  },
+  {
+    "id": "100:785",
+    "name": "CRUMBS/Icon/Shop State=Default",
+    "path": "assets/crumbs-icon-shop-state-default-100-785.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-100-785"
+  },
+  {
+    "id": "103:783",
+    "name": "CRUMBS/Icon/Shop State=Selected",
+    "path": "assets/crumbs-icon-shop-state-selected-103-783.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-103-783"
+  },
+  {
+    "id": "100:790",
+    "name": "CRUMBS/Icon/Cook State=Default",
+    "path": "assets/crumbs-icon-cook-state-default-100-790.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-100-790"
+  },
+  {
+    "id": "103:789",
+    "name": "CRUMBS/Icon/Cook State=Selected",
+    "path": "assets/crumbs-icon-cook-state-selected-103-789.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-103-789"
+  },
+  {
+    "id": "100:795",
+    "name": "CRUMBS/Icon/Pantry State=Default",
+    "path": "assets/crumbs-icon-pantry-state-default-100-795.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-100-795"
+  },
+  {
+    "id": "103:795",
+    "name": "CRUMBS/Icon/Pantry State=Selected",
+    "path": "assets/crumbs-icon-pantry-state-selected-103-795.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-103-795"
+  },
+  {
+    "id": "104:926",
+    "name": "CRUMBS/Icon/Minus",
+    "path": "assets/crumbs-icon-minus-104-926.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-104-926"
+  },
+  {
+    "id": "104:929",
+    "name": "CRUMBS/Icon/Add",
+    "path": "assets/crumbs-icon-add-104-929.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-104-929"
+  },
+  {
+    "id": "104:932",
+    "name": "CRUMBS/Icon/Check",
+    "path": "assets/crumbs-icon-check-104-932.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-104-932"
+  },
+  {
+    "id": "104:935",
+    "name": "CRUMBS/Icon/Arrow Right",
+    "path": "assets/crumbs-icon-arrow-right-104-935.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-104-935"
+  },
+  {
+    "id": "104:938",
+    "name": "CRUMBS/Icon/Fire",
+    "path": "assets/crumbs-icon-fire-104-938.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-104-938"
+  },
+  {
+    "id": "104:941",
+    "name": "CRUMBS/Icon/Whisk",
+    "path": "assets/crumbs-icon-whisk-104-941.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-104-941"
+  },
+  {
+    "id": "104:944",
+    "name": "CRUMBS/Icon/Chef Hat",
+    "path": "assets/crumbs-icon-chef-hat-104-944.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-104-944"
+  },
+  {
+    "id": "104:953",
+    "name": "CRUMBS/Icon/Dollar",
+    "path": "assets/crumbs-icon-dollar-104-953.svg",
+    "format": "svg",
+    "monochrome": false,
+    "sprite": "assets/icons.svg#icon-104-953"
+  },
+  {
+    "id": "136:2372",
+    "name": "reicon:minus-circle",
+    "path": "assets/reicon-minus-circle-136-2372.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-136-2372"
+  },
+  {
+    "id": "136:2377",
+    "name": "reicon:plus-circle",
+    "path": "assets/reicon-plus-circle-136-2377.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-136-2377"
+  },
+  {
+    "id": "136:2465",
+    "name": "reicon:check",
+    "path": "assets/reicon-check-136-2465.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-136-2465"
+  },
+  {
+    "id": "144:1604",
+    "name": "CRUMBS/Icon/Check 24",
+    "path": "assets/crumbs-icon-check-24-144-1604.svg",
+    "format": "svg",
+    "monochrome": true,
+    "sprite": "assets/icons.svg#icon-144-1604"
+  },
+  {
+    "id": "100:806",
+    "name": "CRUMBS/Food Image Recipe=Honey Sriracha Chicken",
+    "path": "assets/crumbs-food-image-recipe-honey-sriracha-chicken-100-806.png",
+    "format": "png"
+  },
+  {
+    "id": "100:808",
+    "name": "CRUMBS/Food Image Recipe=Chicken Souvlaki",
+    "path": "assets/crumbs-food-image-recipe-chicken-souvlaki-100-808.png",
+    "format": "png"
+  },
+  {
+    "id": "100:810",
+    "name": "CRUMBS/Food Image Recipe=Tomato-Lentil Ratatouille",
+    "path": "assets/crumbs-food-image-recipe-tomato-lentil-ratatouille-100-810.png",
+    "format": "png"
+  },
+  {
+    "id": "100:812",
+    "name": "CRUMBS/Food Image Recipe=Tofu Piccata",
+    "path": "assets/crumbs-food-image-recipe-tofu-piccata-100-812.png",
+    "format": "png"
+  },
+  {
+    "id": "114:1096",
+    "name": "CRUMBS/Food Image Recipe=Additional Recipe Image",
+    "path": "assets/crumbs-food-image-recipe-additional-recipe-image-114-1096.png",
+    "format": "png"
+  },
+  {
+    "id": "115:1126",
+    "name": "CRUMBS/Food Image Planned Recipe=Honey Sriracha Chicken",
+    "path": "assets/crumbs-food-image-planned-recipe-honey-sriracha-chicken-115-1126.png",
+    "format": "png"
+  },
+  {
+    "id": "115:1128",
+    "name": "CRUMBS/Food Image Planned Recipe=Chicken Souvlaki",
+    "path": "assets/crumbs-food-image-planned-recipe-chicken-souvlaki-115-1128.png",
+    "format": "png"
+  },
+  {
+    "id": "115:1130",
+    "name": "CRUMBS/Food Image Planned Recipe=Tomato-Lentil Ratatouille",
+    "path": "assets/crumbs-food-image-planned-recipe-tomato-lentil-ratatouille-115-1130.png",
+    "format": "png"
+  },
+  {
+    "id": "115:1132",
+    "name": "CRUMBS/Food Image Planned Recipe=Tofu Piccata",
+    "path": "assets/crumbs-food-image-planned-recipe-tofu-piccata-115-1132.png",
+    "format": "png"
+  },
+  {
+    "id": "115:1134",
+    "name": "CRUMBS/Food Image Planned Recipe=Additional Recipe Image",
+    "path": "assets/crumbs-food-image-planned-recipe-additional-recipe-image-115-1134.png",
+    "format": "png"
+  },
+  {
+    "id": "194:2195",
+    "name": "CRUMBS/Ingredient Image/Chicken Breast",
+    "path": "assets/crumbs-ingredient-image-chicken-breast-194-2195.png",
+    "format": "png"
+  },
+  {
+    "id": "195:2196",
+    "name": "CRUMBS/Ingredient Image/Sriracha",
+    "path": "assets/crumbs-ingredient-image-sriracha-195-2196.png",
+    "format": "png"
+  },
+  {
+    "id": "195:2197",
+    "name": "CRUMBS/Ingredient Image/Honey",
+    "path": "assets/crumbs-ingredient-image-honey-195-2197.png",
+    "format": "png"
+  },
+  {
+    "id": "195:2198",
+    "name": "CRUMBS/Ingredient Image/Olive Oil",
+    "path": "assets/crumbs-ingredient-image-olive-oil-195-2198.png",
+    "format": "png"
+  },
+  {
+    "id": "195:2199",
+    "name": "CRUMBS/Ingredient Image/Coconut Aminos",
+    "path": "assets/crumbs-ingredient-image-coconut-aminos-195-2199.png",
+    "format": "png"
+  },
+  {
+    "id": "195:2200",
+    "name": "CRUMBS/Ingredient Image/Lime Juice",
+    "path": "assets/crumbs-ingredient-image-lime-juice-195-2200.png",
+    "format": "png"
+  },
+  {
+    "id": "195:2201",
+    "name": "CRUMBS/Ingredient Image/Garlic",
+    "path": "assets/crumbs-ingredient-image-garlic-195-2201.png",
+    "format": "png"
+  },
+  {
+    "id": "219:2488",
+    "name": "CRUMBS/Ingredient Image/Placeholder",
+    "path": "assets/crumbs-ingredient-image-placeholder-219-2488.png",
+    "format": "png"
+  },
+  {
+    "id": "316:57879",
+    "name": "CRUMBS/Media/RecipeImage",
+    "path": "assets/crumbs-media-recipeimage-316-57879.png",
+    "format": "png"
+  },
+  {
+    "id": "382:13245",
+    "name": "CRUMBS/Icon/Vegetarian Food/Size=16",
+    "path": "assets/vegetarian-food-16.svg",
+    "format": "svg",
+    "monochrome": true
+  },
+  {
+    "id": "382:13242",
+    "name": "CRUMBS/Icon/Vegetarian Food/Size=24",
+    "path": "assets/vegetarian-food-24.svg",
+    "format": "svg",
+    "monochrome": true
+  },
+  {
+    "id": "382:13251",
+    "name": "CRUMBS/Icon/Vegetarian Food/Size=32",
+    "path": "assets/vegetarian-food-32.svg",
+    "format": "svg",
+    "monochrome": true
+  },
+  {
+    "id": "382:13248",
+    "name": "CRUMBS/Icon/Vegetarian Food/Size=48",
+    "path": "assets/vegetarian-food-48.svg",
+    "format": "svg",
+    "monochrome": true
+  }
+]

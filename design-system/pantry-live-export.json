@@ -1,0 +1,2583 @@
+{
+  "generated": "2026-10-20",
+  "status": "Figma and Expo implemented; Figma screenshots checked",
+  "screen": {
+    "id": "299:18979",
+    "name": "Pantry · pantry",
+    "section": "13 · Pantry · Inventory & capture",
+    "referenceSize": [
+      402,
+      874
+    ],
+    "spec": [
+      {
+        "type": "INSTANCE",
+        "name": "Back",
+        "visible": true,
+        "opacity": 1,
+        "bindings": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:70:3137"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:70:3137"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:70:3137"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:70:3137"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:70:3137"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53518"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53518"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53518"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53518"
+          },
+          "counterAxisSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:72:3390"
+            }
+          ],
+          "effects": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:316:60557"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:316:60558"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:316:60559"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:316:60560"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:316:60562"
+            }
+          ]
+        },
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8588235378265381,
+              "g": 0.8235294222831726,
+              "b": 0.7411764860153198
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:72:3390"
+              }
+            }
+          }
+        ],
+        "layout": {
+          "direction": "HORIZONTAL",
+          "width": 48,
+          "height": 48,
+          "primarySizing": "AUTO",
+          "crossSizing": "AUTO",
+          "padding": [
+            12,
+            12,
+            12,
+            12
+          ],
+          "gap": 12,
+          "grow": 0,
+          "align": "INHERIT"
+        },
+        "componentId": "78:3656",
+        "props": {
+          "Text Visible#72:22": false,
+          "Left Icon#72:34": "78:3643",
+          "Right Icon Visible#70:5": false,
+          "Right Icon#72:43": "72:3430",
+          "Left Icon Visible#70:0": true,
+          "State": "Default",
+          "Icon Size": "Regular"
+        },
+        "size": [
+          48,
+          48
+        ]
+      },
+      {
+        "type": "INSTANCE",
+        "name": "Your profile",
+        "visible": true,
+        "opacity": 1,
+        "bindings": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53356"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53356"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "counterAxisSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          }
+        },
+        "constraints": {
+          "horizontal": "MAX",
+          "vertical": "MIN"
+        },
+        "fills": [],
+        "layout": {
+          "direction": "HORIZONTAL",
+          "width": 87,
+          "height": 48,
+          "primarySizing": "FIXED",
+          "crossSizing": "FIXED",
+          "padding": [
+            2,
+            0,
+            2,
+            0
+          ],
+          "gap": 0,
+          "grow": 0,
+          "align": "INHERIT"
+        },
+        "componentId": "21:2129",
+        "props": {
+          "Property 1": "Sign In"
+        },
+        "size": [
+          87,
+          48
+        ]
+      },
+      {
+        "type": "INSTANCE",
+        "name": "Pantry",
+        "visible": true,
+        "opacity": 1,
+        "bindings": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "counterAxisSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          }
+        },
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [],
+        "layout": {
+          "direction": "VERTICAL",
+          "width": 362,
+          "height": 40,
+          "primarySizing": "AUTO",
+          "crossSizing": "FIXED",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "gap": 0,
+          "grow": 0,
+          "align": "INHERIT"
+        },
+        "componentId": "316:54292",
+        "props": {
+          "Text#316:6": "Pantry"
+        },
+        "size": [
+          362,
+          40
+        ]
+      },
+      {
+        "type": "INSTANCE",
+        "name": "Know what you have. Use more of it.",
+        "visible": true,
+        "opacity": 1,
+        "bindings": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "counterAxisSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          }
+        },
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [],
+        "layout": {
+          "direction": "VERTICAL",
+          "width": 362,
+          "height": 20,
+          "primarySizing": "AUTO",
+          "crossSizing": "FIXED",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "gap": 0,
+          "grow": 0,
+          "align": "INHERIT"
+        },
+        "componentId": "316:54433",
+        "props": {
+          "Text#316:165": "Know what you have. Use more of it.",
+          "Pattern": "Default"
+        },
+        "size": [
+          362,
+          20
+        ]
+      },
+      {
+        "type": "FRAME",
+        "name": "Scrollable content",
+        "visible": true,
+        "opacity": 1,
+        "bindings": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          }
+        },
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [],
+        "layout": {
+          "direction": "NONE",
+          "width": 362,
+          "height": 480,
+          "primarySizing": "AUTO",
+          "crossSizing": "FIXED",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "gap": 0,
+          "grow": 0,
+          "align": "INHERIT"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "Content",
+            "visible": true,
+            "opacity": 1,
+            "bindings": {
+              "itemSpacing": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53364"
+              },
+              "paddingLeft": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53355"
+              },
+              "paddingTop": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53355"
+              },
+              "paddingRight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53355"
+              },
+              "paddingBottom": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53355"
+              },
+              "topLeftRadius": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53371"
+              },
+              "topRightRadius": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53371"
+              },
+              "bottomLeftRadius": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53371"
+              },
+              "bottomRightRadius": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53371"
+              },
+              "counterAxisSpacing": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53355"
+              }
+            },
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [],
+            "layout": {
+              "direction": "VERTICAL",
+              "width": 362,
+              "height": 720,
+              "primarySizing": "AUTO",
+              "crossSizing": "FIXED",
+              "padding": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "gap": 24,
+              "grow": 0,
+              "align": "INHERIT"
+            },
+            "children": [
+              {
+                "type": "INSTANCE",
+                "name": "Use soon",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "itemSpacing": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53505"
+                  },
+                  "paddingLeft": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53504"
+                  },
+                  "paddingTop": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53504"
+                  },
+                  "paddingRight": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53504"
+                  },
+                  "paddingBottom": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53504"
+                  },
+                  "visible": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:299:25006"
+                  },
+                  "topLeftRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53506"
+                  },
+                  "topRightRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53506"
+                  },
+                  "bottomLeftRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53506"
+                  },
+                  "bottomRightRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53506"
+                  },
+                  "counterAxisSpacing": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53355"
+                  },
+                  "fills": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53424"
+                    }
+                  ]
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.8627451062202454,
+                      "g": 0.8313725590705872,
+                      "b": 0.7450980544090271
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53424"
+                      }
+                    }
+                  }
+                ],
+                "layout": {
+                  "direction": "VERTICAL",
+                  "width": 362,
+                  "height": 112,
+                  "primarySizing": "AUTO",
+                  "crossSizing": "FIXED",
+                  "padding": [
+                    16,
+                    16,
+                    16,
+                    16
+                  ],
+                  "gap": 8,
+                  "grow": 0,
+                  "align": "INHERIT"
+                },
+                "componentId": "316:59996",
+                "props": {
+                  "Meta#316:170": "Check freshness before cooking",
+                  "Description#316:169": "Spinach · added 3 days ago",
+                  "Title#316:168": "Use soon",
+                  "Pattern": "Alternative"
+                },
+                "size": [
+                  362,
+                  112
+                ]
+              },
+              {
+                "type": "FRAME",
+                "name": "Category · Protein",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "itemSpacing": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53359"
+                  }
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [],
+                "layout": {
+                  "direction": "VERTICAL",
+                  "width": 362,
+                  "height": 88,
+                  "primarySizing": "AUTO",
+                  "crossSizing": "FIXED",
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "gap": 8,
+                  "grow": 0,
+                  "align": "STRETCH"
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "name": "Category",
+                    "visible": true,
+                    "opacity": 1,
+                    "bindings": {
+                      "itemSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingLeft": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingTop": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingRight": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingBottom": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "topLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "topRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "bottomLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "bottomRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "counterAxisSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      }
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "fills": [],
+                    "layout": {
+                      "direction": "VERTICAL",
+                      "width": 362,
+                      "height": 24,
+                      "primarySizing": "AUTO",
+                      "crossSizing": "FIXED",
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "gap": 0,
+                      "grow": 0,
+                      "align": "STRETCH"
+                    },
+                    "componentId": "316:55786",
+                    "props": {
+                      "Text#316:8": "Protein"
+                    },
+                    "size": [
+                      362,
+                      24
+                    ]
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "name": "Chicken breast",
+                    "visible": true,
+                    "opacity": 1,
+                    "bindings": {
+                      "itemSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53362"
+                      },
+                      "paddingLeft": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingTop": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53357"
+                      },
+                      "paddingRight": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingBottom": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53357"
+                      },
+                      "topLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "topRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "bottomLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "bottomRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      }
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "fills": [],
+                    "layout": {
+                      "direction": "HORIZONTAL",
+                      "width": 362,
+                      "height": 56,
+                      "primarySizing": "FIXED",
+                      "crossSizing": "AUTO",
+                      "padding": [
+                        4,
+                        0,
+                        4,
+                        0
+                      ],
+                      "gap": 16,
+                      "grow": 0,
+                      "align": "STRETCH"
+                    },
+                    "componentId": "361:19640",
+                    "props": {
+                      "Image#361:3": "194:2195",
+                      "Storage#361:1": "fridge",
+                      "Label#361:0": "Chicken breast"
+                    },
+                    "size": [
+                      362,
+                      56
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "FRAME",
+                "name": "Category · Condiments",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "itemSpacing": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53359"
+                  }
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [],
+                "layout": {
+                  "direction": "VERTICAL",
+                  "width": 362,
+                  "height": 88,
+                  "primarySizing": "AUTO",
+                  "crossSizing": "FIXED",
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "gap": 8,
+                  "grow": 0,
+                  "align": "STRETCH"
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "name": "Category",
+                    "visible": true,
+                    "opacity": 1,
+                    "bindings": {
+                      "itemSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingLeft": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingTop": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingRight": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingBottom": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "topLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "topRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "bottomLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "bottomRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "counterAxisSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      }
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "fills": [],
+                    "layout": {
+                      "direction": "VERTICAL",
+                      "width": 362,
+                      "height": 24,
+                      "primarySizing": "AUTO",
+                      "crossSizing": "FIXED",
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "gap": 0,
+                      "grow": 0,
+                      "align": "STRETCH"
+                    },
+                    "componentId": "316:55786",
+                    "props": {
+                      "Text#316:8": "Condiments"
+                    },
+                    "size": [
+                      362,
+                      24
+                    ]
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "name": "Olive oil",
+                    "visible": true,
+                    "opacity": 1,
+                    "bindings": {
+                      "itemSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53362"
+                      },
+                      "paddingLeft": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingTop": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53357"
+                      },
+                      "paddingRight": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingBottom": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53357"
+                      },
+                      "topLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "topRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "bottomLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "bottomRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      }
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "fills": [],
+                    "layout": {
+                      "direction": "HORIZONTAL",
+                      "width": 362,
+                      "height": 56,
+                      "primarySizing": "FIXED",
+                      "crossSizing": "AUTO",
+                      "padding": [
+                        4,
+                        0,
+                        4,
+                        0
+                      ],
+                      "gap": 16,
+                      "grow": 0,
+                      "align": "STRETCH"
+                    },
+                    "componentId": "361:19640",
+                    "props": {
+                      "Image#361:3": "195:2198",
+                      "Storage#361:1": "cupboard",
+                      "Label#361:0": "Olive oil"
+                    },
+                    "size": [
+                      362,
+                      56
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "FRAME",
+                "name": "Category · Produce",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "itemSpacing": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53359"
+                  }
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [],
+                "layout": {
+                  "direction": "VERTICAL",
+                  "width": 362,
+                  "height": 88,
+                  "primarySizing": "AUTO",
+                  "crossSizing": "FIXED",
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "gap": 8,
+                  "grow": 0,
+                  "align": "STRETCH"
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "name": "Category",
+                    "visible": true,
+                    "opacity": 1,
+                    "bindings": {
+                      "itemSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingLeft": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingTop": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingRight": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingBottom": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "topLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "topRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "bottomLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "bottomRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "counterAxisSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      }
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "fills": [],
+                    "layout": {
+                      "direction": "VERTICAL",
+                      "width": 362,
+                      "height": 24,
+                      "primarySizing": "AUTO",
+                      "crossSizing": "FIXED",
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "gap": 0,
+                      "grow": 0,
+                      "align": "STRETCH"
+                    },
+                    "componentId": "316:55786",
+                    "props": {
+                      "Text#316:8": "Produce"
+                    },
+                    "size": [
+                      362,
+                      24
+                    ]
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "name": "Garlic",
+                    "visible": true,
+                    "opacity": 1,
+                    "bindings": {
+                      "itemSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53362"
+                      },
+                      "paddingLeft": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingTop": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53357"
+                      },
+                      "paddingRight": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingBottom": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53357"
+                      },
+                      "topLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "topRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "bottomLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "bottomRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      }
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "fills": [],
+                    "layout": {
+                      "direction": "HORIZONTAL",
+                      "width": 362,
+                      "height": 56,
+                      "primarySizing": "FIXED",
+                      "crossSizing": "AUTO",
+                      "padding": [
+                        4,
+                        0,
+                        4,
+                        0
+                      ],
+                      "gap": 16,
+                      "grow": 0,
+                      "align": "STRETCH"
+                    },
+                    "componentId": "361:19640",
+                    "props": {
+                      "Image#361:3": "195:2201",
+                      "Storage#361:1": "cupboard",
+                      "Label#361:0": "Garlic"
+                    },
+                    "size": [
+                      362,
+                      56
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "FRAME",
+                "name": "Category · Grains & Bread",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "itemSpacing": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53359"
+                  }
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [],
+                "layout": {
+                  "direction": "VERTICAL",
+                  "width": 362,
+                  "height": 88,
+                  "primarySizing": "AUTO",
+                  "crossSizing": "FIXED",
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "gap": 8,
+                  "grow": 0,
+                  "align": "STRETCH"
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "name": "Category",
+                    "visible": true,
+                    "opacity": 1,
+                    "bindings": {
+                      "itemSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingLeft": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingTop": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingRight": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingBottom": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "topLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "topRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "bottomLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "bottomRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53371"
+                      },
+                      "counterAxisSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      }
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "fills": [],
+                    "layout": {
+                      "direction": "VERTICAL",
+                      "width": 362,
+                      "height": 24,
+                      "primarySizing": "AUTO",
+                      "crossSizing": "FIXED",
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "gap": 0,
+                      "grow": 0,
+                      "align": "STRETCH"
+                    },
+                    "componentId": "316:55786",
+                    "props": {
+                      "Text#316:8": "Grains & Bread"
+                    },
+                    "size": [
+                      362,
+                      24
+                    ]
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "name": "Rice",
+                    "visible": true,
+                    "opacity": 1,
+                    "bindings": {
+                      "itemSpacing": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53362"
+                      },
+                      "paddingLeft": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingTop": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53357"
+                      },
+                      "paddingRight": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "paddingBottom": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53357"
+                      },
+                      "topLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "topRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "bottomLeftRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      },
+                      "bottomRightRadius": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53355"
+                      }
+                    },
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "fills": [],
+                    "layout": {
+                      "direction": "HORIZONTAL",
+                      "width": 362,
+                      "height": 56,
+                      "primarySizing": "FIXED",
+                      "crossSizing": "AUTO",
+                      "padding": [
+                        4,
+                        0,
+                        4,
+                        0
+                      ],
+                      "gap": 16,
+                      "grow": 0,
+                      "align": "STRETCH"
+                    },
+                    "componentId": "361:19640",
+                    "props": {
+                      "Image#361:3": "361:19631",
+                      "Storage#361:1": "cupboard",
+                      "Label#361:0": "Rice"
+                    },
+                    "size": [
+                      362,
+                      56
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "INSTANCE",
+                "name": "Scan food or a receipt",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "itemSpacing": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:70:3137"
+                  },
+                  "paddingLeft": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53519"
+                  },
+                  "paddingTop": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53519"
+                  },
+                  "paddingRight": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53519"
+                  },
+                  "paddingBottom": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53519"
+                  },
+                  "topLeftRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53518"
+                  },
+                  "topRightRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53518"
+                  },
+                  "bottomLeftRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53518"
+                  },
+                  "bottomRightRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53518"
+                  },
+                  "counterAxisSpacing": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53355"
+                  },
+                  "fills": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53424"
+                    }
+                  ]
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.8627451062202454,
+                      "g": 0.8313725590705872,
+                      "b": 0.7450980544090271
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53424"
+                      }
+                    }
+                  }
+                ],
+                "layout": {
+                  "direction": "HORIZONTAL",
+                  "width": 362,
+                  "height": 56,
+                  "primarySizing": "FIXED",
+                  "crossSizing": "FIXED",
+                  "padding": [
+                    20,
+                    20,
+                    20,
+                    20
+                  ],
+                  "gap": 12,
+                  "grow": 0,
+                  "align": "INHERIT"
+                },
+                "componentId": "70:3168",
+                "props": {
+                  "Right Icon#72:43": "72:3430",
+                  "Text Visible#72:22": true,
+                  "Left Icon#72:34": "72:3430",
+                  "Right Icon Visible#70:5": false,
+                  "Label#127:0": "Scan food or a receipt",
+                  "Left Icon Visible#70:0": false,
+                  "State": "Default",
+                  "Icon Size": "Regular"
+                },
+                "size": [
+                  362,
+                  56
+                ]
+              },
+              {
+                "type": "INSTANCE",
+                "name": "Most recently updated",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "itemSpacing": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53362"
+                  },
+                  "paddingLeft": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53355"
+                  },
+                  "paddingTop": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53357"
+                  },
+                  "paddingRight": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53355"
+                  },
+                  "paddingBottom": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53357"
+                  },
+                  "topLeftRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53355"
+                  },
+                  "topRightRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53355"
+                  },
+                  "bottomLeftRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53355"
+                  },
+                  "bottomRightRadius": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53355"
+                  }
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [],
+                "layout": {
+                  "direction": "HORIZONTAL",
+                  "width": 362,
+                  "height": 56,
+                  "primarySizing": "FIXED",
+                  "crossSizing": "AUTO",
+                  "padding": [
+                    4,
+                    0,
+                    4,
+                    0
+                  ],
+                  "gap": 16,
+                  "grow": 0,
+                  "align": "STRETCH"
+                },
+                "componentId": "361:19640",
+                "props": {
+                  "Image#361:3": "361:19634",
+                  "Storage#361:1": "View the food you just changed",
+                  "Label#361:0": "Spinach"
+                },
+                "size": [
+                  362,
+                  56
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "INSTANCE",
+        "name": "Primary action",
+        "visible": true,
+        "opacity": 1,
+        "bindings": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53512"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53512"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53512"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53512"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "counterAxisSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:316:53422"
+            }
+          ]
+        },
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.929411768913269,
+              "g": 0.9098039269447327,
+              "b": 0.8705882430076599
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53422"
+              }
+            }
+          }
+        ],
+        "layout": {
+          "direction": "VERTICAL",
+          "width": 402,
+          "height": 96,
+          "primarySizing": "AUTO",
+          "crossSizing": "FIXED",
+          "padding": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "gap": 0,
+          "grow": 0,
+          "align": "INHERIT"
+        },
+        "componentId": "316:54586",
+        "props": {
+          "Pattern": "Padded"
+        },
+        "size": [
+          402,
+          96
+        ]
+      },
+      {
+        "type": "INSTANCE",
+        "name": "Navigation Bar",
+        "visible": true,
+        "opacity": 1,
+        "bindings": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53361"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53363"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53362"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53363"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53362"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53371"
+          },
+          "counterAxisSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:70:3097"
+            }
+          ],
+          "effects": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:316:60557"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:316:60558"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:316:60559"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:316:60561"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:316:60562"
+            }
+          ]
+        },
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.929411768913269,
+              "g": 0.9098039269447327,
+              "b": 0.8705882430076599
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:70:3097"
+              }
+            }
+          }
+        ],
+        "layout": {
+          "direction": "VERTICAL",
+          "width": 402,
+          "height": 78,
+          "primarySizing": "AUTO",
+          "crossSizing": "FIXED",
+          "padding": [
+            16,
+            20,
+            16,
+            20
+          ],
+          "gap": 12,
+          "grow": 0,
+          "align": "INHERIT"
+        },
+        "componentId": "96:1177",
+        "props": {
+          "Property 1": "Pantry"
+        },
+        "size": [
+          402,
+          78
+        ]
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "361:19631",
+      "name": "CRUMBS/Ingredient Image/Rice",
+      "family": "CRUMBS/Ingredient Image/Rice",
+      "variant": null,
+      "description": "",
+      "properties": {},
+      "inScreens": 1,
+      "spec": {
+        "type": "COMPONENT",
+        "name": "CRUMBS/Ingredient Image/Rice",
+        "visible": true,
+        "opacity": 1,
+        "bindings": {
+          "width": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53369"
+          },
+          "height": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53369"
+          }
+        },
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [],
+        "layout": {
+          "direction": "NONE",
+          "width": 48,
+          "height": 48,
+          "primarySizing": "AUTO",
+          "crossSizing": "FIXED",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "gap": 0,
+          "grow": 0,
+          "align": "INHERIT"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "Frame",
+            "visible": true,
+            "opacity": 1,
+            "bindings": {},
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": false,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ],
+            "layout": {
+              "direction": "NONE",
+              "width": 48,
+              "height": 48,
+              "primarySizing": "AUTO",
+              "crossSizing": "FIXED",
+              "padding": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "gap": 0,
+              "grow": 0,
+              "align": "INHERIT"
+            },
+            "children": [
+              {
+                "type": "VECTOR",
+                "name": "Vector",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "strokes": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53428"
+                    }
+                  ]
+                },
+                "constraints": {
+                  "horizontal": "SCALE",
+                  "vertical": "SCALE"
+                },
+                "fills": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "361:19634",
+      "name": "CRUMBS/Ingredient Image/Spinach",
+      "family": "CRUMBS/Ingredient Image/Spinach",
+      "variant": null,
+      "description": "",
+      "properties": {},
+      "inScreens": 1,
+      "spec": {
+        "type": "COMPONENT",
+        "name": "CRUMBS/Ingredient Image/Spinach",
+        "visible": true,
+        "opacity": 1,
+        "bindings": {
+          "width": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53369"
+          },
+          "height": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53369"
+          }
+        },
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [],
+        "layout": {
+          "direction": "NONE",
+          "width": 48,
+          "height": 48,
+          "primarySizing": "AUTO",
+          "crossSizing": "FIXED",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "gap": 0,
+          "grow": 0,
+          "align": "INHERIT"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "Frame",
+            "visible": true,
+            "opacity": 1,
+            "bindings": {},
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": false,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ],
+            "layout": {
+              "direction": "NONE",
+              "width": 48,
+              "height": 48,
+              "primarySizing": "AUTO",
+              "crossSizing": "FIXED",
+              "padding": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "gap": 0,
+              "grow": 0,
+              "align": "INHERIT"
+            },
+            "children": [
+              {
+                "type": "VECTOR",
+                "name": "Vector",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "strokes": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53428"
+                    }
+                  ]
+                },
+                "constraints": {
+                  "horizontal": "SCALE",
+                  "vertical": "SCALE"
+                },
+                "fills": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "361:19637",
+      "name": "CRUMBS/Icon/Chevron Right",
+      "family": "CRUMBS/Icon/Chevron Right",
+      "variant": null,
+      "description": "",
+      "properties": {},
+      "inScreens": 1,
+      "spec": {
+        "type": "COMPONENT",
+        "name": "CRUMBS/Icon/Chevron Right",
+        "visible": true,
+        "opacity": 1,
+        "bindings": {
+          "width": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53364"
+          },
+          "height": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53364"
+          }
+        },
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [],
+        "layout": {
+          "direction": "NONE",
+          "width": 24,
+          "height": 24,
+          "primarySizing": "AUTO",
+          "crossSizing": "FIXED",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "gap": 0,
+          "grow": 0,
+          "align": "INHERIT"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "Frame",
+            "visible": true,
+            "opacity": 1,
+            "bindings": {},
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": false,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ],
+            "layout": {
+              "direction": "NONE",
+              "width": 24,
+              "height": 24,
+              "primarySizing": "AUTO",
+              "crossSizing": "FIXED",
+              "padding": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "gap": 0,
+              "grow": 0,
+              "align": "INHERIT"
+            },
+            "children": [
+              {
+                "type": "VECTOR",
+                "name": "Vector",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "strokes": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53426"
+                    }
+                  ]
+                },
+                "constraints": {
+                  "horizontal": "SCALE",
+                  "vertical": "SCALE"
+                },
+                "fills": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "361:19640",
+      "name": "CRUMBS/Pantry/Food Row",
+      "family": "CRUMBS/Pantry/Food Row",
+      "variant": null,
+      "description": "Unboxed pantry edit row: food image 48, flexible name/storage, and a 24px chevron centered in a transparent 40px square with 8px padding. Row padding 4px vertically and 0 horizontally; gap 16px. Whole row is one edit action. No quantity column.",
+      "properties": {
+        "Label#361:0": {
+          "type": "TEXT",
+          "defaultValue": "Rice"
+        },
+        "Storage#361:1": {
+          "type": "TEXT",
+          "defaultValue": "cupboard"
+        },
+        "Image#361:3": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "361:19631",
+          "preferredValues": []
+        }
+      },
+      "inScreens": 1,
+      "spec": {
+        "type": "COMPONENT",
+        "name": "CRUMBS/Pantry/Food Row",
+        "visible": true,
+        "opacity": 1,
+        "bindings": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53362"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53357"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53357"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:316:53355"
+          }
+        },
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [],
+        "layout": {
+          "direction": "HORIZONTAL",
+          "width": 362,
+          "height": 56,
+          "primarySizing": "FIXED",
+          "crossSizing": "AUTO",
+          "padding": [
+            4,
+            0,
+            4,
+            0
+          ],
+          "gap": 16,
+          "grow": 0,
+          "align": "INHERIT"
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "name": "Food artwork",
+            "visible": true,
+            "opacity": 1,
+            "bindings": {
+              "width": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53369"
+              },
+              "height": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53369"
+              }
+            },
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [],
+            "layout": {
+              "direction": "NONE",
+              "width": 48,
+              "height": 48,
+              "primarySizing": "AUTO",
+              "crossSizing": "FIXED",
+              "padding": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "gap": 0,
+              "grow": 0,
+              "align": "INHERIT"
+            },
+            "componentId": "361:19631",
+            "props": {},
+            "size": [
+              48,
+              48
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Food details",
+            "visible": true,
+            "opacity": 1,
+            "bindings": {
+              "itemSpacing": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53508"
+              }
+            },
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [],
+            "layout": {
+              "direction": "VERTICAL",
+              "width": 242,
+              "height": 44,
+              "primarySizing": "AUTO",
+              "crossSizing": "FIXED",
+              "padding": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "gap": 4,
+              "grow": 1,
+              "align": "INHERIT"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Food name",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "fills": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53425"
+                    }
+                  ],
+                  "letterSpacing": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53487"
+                    }
+                  ],
+                  "fontSize": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53483"
+                    }
+                  ],
+                  "fontFamily": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53485"
+                    }
+                  ],
+                  "lineHeight": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53484"
+                    }
+                  ],
+                  "fontWeight": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53486"
+                    }
+                  ]
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.09882353246212006,
+                      "g": 0.10431373119354248,
+                      "b": 0.09568627178668976
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53425"
+                      }
+                    }
+                  }
+                ],
+                "text": "Rice",
+                "fontName": {
+                  "family": "Matter-TRIAL",
+                  "style": "SemiBold"
+                },
+                "fontSize": 14
+              },
+              {
+                "type": "TEXT",
+                "name": "Storage",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "fills": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53425"
+                    }
+                  ],
+                  "letterSpacing": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53477"
+                    }
+                  ],
+                  "fontSize": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53473"
+                    }
+                  ],
+                  "fontFamily": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53475"
+                    }
+                  ],
+                  "lineHeight": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53474"
+                    }
+                  ],
+                  "fontWeight": [
+                    {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:316:53476"
+                    }
+                  ]
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.09882353246212006,
+                      "g": 0.10431373119354248,
+                      "b": 0.09568627178668976
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:316:53425"
+                      }
+                    }
+                  }
+                ],
+                "text": "cupboard",
+                "fontName": {
+                  "family": "Matter-TRIAL",
+                  "style": "Regular"
+                },
+                "fontSize": 12
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Chevron frame",
+            "visible": true,
+            "opacity": 1,
+            "bindings": {
+              "paddingLeft": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53359"
+              },
+              "paddingTop": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53359"
+              },
+              "paddingRight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53359"
+              },
+              "paddingBottom": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53359"
+              },
+              "width": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53368"
+              },
+              "height": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:316:53368"
+              }
+            },
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [],
+            "layout": {
+              "direction": "HORIZONTAL",
+              "width": 40,
+              "height": 40,
+              "primarySizing": "FIXED",
+              "crossSizing": "FIXED",
+              "padding": [
+                8,
+                8,
+                8,
+                8
+              ],
+              "gap": 0,
+              "grow": 0,
+              "align": "INHERIT"
+            },
+            "children": [
+              {
+                "type": "INSTANCE",
+                "name": "Chevron",
+                "visible": true,
+                "opacity": 1,
+                "bindings": {
+                  "width": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53364"
+                  },
+                  "height": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:316:53364"
+                  }
+                },
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [],
+                "layout": {
+                  "direction": "NONE",
+                  "width": 24,
+                  "height": 24,
+                  "primarySizing": "AUTO",
+                  "crossSizing": "FIXED",
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "gap": 0,
+                  "grow": 0,
+                  "align": "INHERIT"
+                },
+                "componentId": "361:19637",
+                "props": {},
+                "size": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "validation": {
+    "rows": [
+      {
+        "id": "361:19654",
+        "name": "Chicken breast",
+        "width": 362,
+        "height": 56,
+        "editDestinations": [
+          "299:19453"
+        ]
+      },
+      {
+        "id": "361:19669",
+        "name": "Olive oil",
+        "width": 362,
+        "height": 56,
+        "editDestinations": [
+          "299:19453"
+        ]
+      },
+      {
+        "id": "361:19684",
+        "name": "Garlic",
+        "width": 362,
+        "height": 56,
+        "editDestinations": [
+          "299:19453"
+        ]
+      },
+      {
+        "id": "361:19699",
+        "name": "Rice",
+        "width": 362,
+        "height": 56,
+        "editDestinations": [
+          "299:19453"
+        ]
+      },
+      {
+        "id": "361:19713",
+        "name": "Most recently updated",
+        "width": 362,
+        "height": 56,
+        "editDestinations": [
+          "299:19453"
+        ]
+      }
+    ],
+    "widths": [
+      {
+        "width": 280,
+        "height": 56,
+        "chevronFrameWidth": 40,
+        "chevronWidth": 24,
+        "padding": 8,
+        "rightEdge": 280,
+        "inside": true
+      },
+      {
+        "width": 320,
+        "height": 56,
+        "chevronFrameWidth": 40,
+        "chevronWidth": 24,
+        "padding": 8,
+        "rightEdge": 320,
+        "inside": true
+      },
+      {
+        "width": 362,
+        "height": 56,
+        "chevronFrameWidth": 40,
+        "chevronWidth": 24,
+        "padding": 8,
+        "rightEdge": 362,
+        "inside": true
+      }
+    ],
+    "headerPreserved": true,
+    "useSoonPreserved": true,
+    "addFoodPreserved": true,
+    "deviceInteractionTested": false
+  }
+}
