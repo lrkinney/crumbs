@@ -124,10 +124,44 @@ export function weekSpendMinor(data: AppData, date: string) {
   return spentMinor + plannedMinor;
 }
 
-/** Splits a weekly budget into the amounts the budget widget shows. Over budget replaces remaining, never both. */
-export function budgetBreakdown(spentMinor: number, plannedMinor: number, budgetMinor: number) {
-  const total = spentMinor + plannedMinor;
-  const remainingMinor = Math.max(0, budgetMinor - total);
-  const overMinor = budgetMinor > 0 ? Math.max(0, total - budgetMinor) : 0;
-  return { spentMinor, plannedMinor, remainingMinor, overMinor, totalMinor: spentMinor + plannedMinor + remainingMinor + overMinor };
+/**
+ * Gives each day of the week an allowance from the weekly budget. Every day starts with an even share of what is left
+ * after the days before it. A day is charged whichever is larger, its cost or its allowance, so spending less does not
+ * raise later days, but going over shrinks every remaining day to cover it. `overMinor` is how far a day went past its own allowance.
+ */
+export function distributeDailyBudget(costsMinor: number[], budgetMinor: number) {
+  let charged = 0;
+  return costsMinor.map((cost, i) => {
+    const allowanceMinor = budgetMinor > 0 ? Math.max(0, Math.floor((budgetMinor - charged) / (costsMinor.length - i))) : 0;
+    const overMinor = budgetMinor > 0 ? Math.max(0, cost - allowanceMinor) : 0;
+    charged += Math.max(cost, allowanceMinor);
+    return { allowanceMinor, overMinor };
+  });
+}
+export interface BudgetDay { date: string; allowanceMinor: number; spentMinor: number; plannedMinor: number; overMinor: number }
+/** The seven days (Sunday to Saturday) of the week containing `date`, each with its allowance and what was cooked or planned. */
+export function weekBudgetDays(data: AppData, date: string, budgetMinor: number): BudgetDay[] {
+  const { start } = weekBounds(date);
+  const days = Array.from({ length: 7 }, (_, i) => { const d = new Date(`${start}T12:00:00`); d.setDate(d.getDate() + i); return localDate(d); });
+  const sums = days.map(day => {
+    const meals = data.meals.filter(m => m.date === day);
+    const sum = (status: Meal['status']) => meals.filter(m => m.status === status).reduce((total, m) => total + mealCostMinor(m), 0);
+    return { spentMinor: sum('cooked'), plannedMinor: sum('planned') };
+  });
+  const shares = distributeDailyBudget(sums.map(d => d.spentMinor + d.plannedMinor), budgetMinor);
+  return days.map((day, i) => ({ date: day, ...sums[i], ...shares[i] }));
+}
+/**
+ * Pixel sizes for the week chart. The tallest allowance fills `maxHeight`; a shorter allowance gets a shorter track.
+ * Spent sits at the bottom, planned above it, both clipped to the track. A day over its allowance also shows a cap.
+ */
+export function weekChartBars(days: BudgetDay[], maxHeight: number) {
+  const top = Math.max(1, ...days.map(day => day.allowanceMinor));
+  const px = (minor: number) => Math.round(minor / top * maxHeight);
+  return days.map(day => {
+    const track = px(day.allowanceMinor);
+    const spent = Math.min(track, px(Math.min(day.spentMinor, day.allowanceMinor)));
+    const planned = Math.min(track - spent, px(Math.min(day.plannedMinor, Math.max(0, day.allowanceMinor - day.spentMinor))));
+    return { track, spent, planned, over: day.overMinor > 0 };
+  });
 }

@@ -7,7 +7,7 @@ import { PlanCalendar } from '@/features/planning/plan-calendar';
 import { DayPlan } from '@/features/home/day-plan';
 import { WeeklyBudget } from '@/features/home/weekly-budget';
 import { useApp } from '@/state/app-state';
-import { dayHeading, localDate, weekBudgetBreakdown } from '@/services/planning';
+import { dayHeading, localDate, weekBudgetDays } from '@/services/planning';
 import { colors, space, token } from '@/theme';
 
 export function HomeScreen() {
@@ -17,13 +17,13 @@ export function HomeScreen() {
   const planned = data.meals.filter(m => m.status === 'planned');
   const onDate = data.meals.filter(m => m.date === date);
   const budget = data.household.budgetMinor;
-  const { spentMinor, plannedMinor } = weekBudgetBreakdown(data, today);
+  const days = weekBudgetDays(data, today, budget);
   return <AppScreen title={dayHeading(date, today)} titleRole="section" back={false} bodyGap={space.xl}>
     <Stack gap={space.md}>
       <PlanCalendar date={date} onChange={setDate} weekOf={today} />
       <DayPlan date={date} today={today} meals={onDate} />
     </Stack>
-    <WeeklyBudget spentMinor={spentMinor} plannedMinor={plannedMinor} budgetMinor={budget} />
+    <WeeklyBudget days={days} budgetMinor={budget} />
     {planned.length ? <Stack gap={space.sm}>
       <SettingsRow title="Your week is ready" description="Review meals and your grocery list" onPress={() => router.navigate('/plan')} />
       <SettingsRow title="Use it while it’s fresh" description={`${data.pantry[0]?.label ?? 'Your pantry'} · check what you have`} onPress={() => router.navigate('/pantry')} />

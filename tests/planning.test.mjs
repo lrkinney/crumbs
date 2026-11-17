@@ -141,8 +141,8 @@ test('home heading names today, tomorrow and yesterday, else the weekday', async
   assert.equal(dayHeading('2026-11-20', '2026-11-17'), 'Friday, November 20');
 });
 
-test('week budget breakdown splits cooked and planned meals and never shows remaining and over together', async () => {
-  const { weekBudgetBreakdown, budgetBreakdown } = await import('../src/services/planning.ts');
+test('week budget breakdown splits cooked and planned meals', async () => {
+  const { weekBudgetBreakdown } = await import('../src/services/planning.ts');
   const d = initialData();
   const r = findRecipe('honey-sriracha-chicken');
   d.meals = [
@@ -151,7 +151,25 @@ test('week budget breakdown splits cooked and planned meals and never shows rema
   ];
   assert.deepEqual(weekBudgetBreakdown(d, '2026-11-17'), {
     spentMinor: Math.round(r.estimateMinor * 4 / r.baseServings), plannedMinor: Math.round(r.estimateMinor * 2 / r.baseServings) });
-  assert.deepEqual(budgetBreakdown(2000, 500, 7500), { spentMinor: 2000, plannedMinor: 500, remainingMinor: 5000, overMinor: 0, totalMinor: 7500 });
-  assert.deepEqual(budgetBreakdown(5000, 2500, 7000), { spentMinor: 5000, plannedMinor: 2500, remainingMinor: 0, overMinor: 500, totalMinor: 8000 });
-  assert.equal(budgetBreakdown(0, 0, 0).overMinor, 0);
+});
+
+test('going over on one day shrinks the allowance of the days after it', async () => {
+  const { distributeDailyBudget, weekChartBars } = await import('../src/services/planning.ts');
+  const even = distributeDailyBudget([0, 0, 0, 0, 0, 0, 0], 7000);
+  assert.deepEqual(even.map(d => d.allowanceMinor), Array(7).fill(1000));
+  // Tuesday costs 1600: 600 over, and the four days after it share what is left (7000 - 1000 - 1000 - 1600) / 4.
+  const over = distributeDailyBudget([500, 1000, 1600, 0, 0, 0, 0], 7000);
+  assert.deepEqual(over.map(d => d.allowanceMinor), [1000, 1000, 1000, 850, 850, 850, 850]);
+  assert.deepEqual(over.map(d => d.overMinor), [0, 0, 600, 0, 0, 0, 0]);
+  // Spending less than the allowance does not raise later days.
+  assert.deepEqual(distributeDailyBudget([0, 0, 0, 0, 0, 0, 0], 7000).map(d => d.allowanceMinor), Array(7).fill(1000));
+  // Budget gone: later days have nothing, so anything planned is over.
+  const gone = distributeDailyBudget([3500, 3500, 400, 0, 0, 0, 0], 7000);
+  assert.deepEqual(gone.slice(2).map(d => d.allowanceMinor), [0, 0, 0, 0, 0]);
+  assert.equal(gone[2].overMinor, 400);
+  assert.deepEqual(distributeDailyBudget([100, 100], 0), [{ allowanceMinor: 0, overMinor: 0 }, { allowanceMinor: 0, overMinor: 0 }]);
+  const bars = weekChartBars(over.map((d, i) => ({ date: String(i), allowanceMinor: d.allowanceMinor, overMinor: d.overMinor, spentMinor: [500, 1000, 1600, 0, 0, 0, 0][i], plannedMinor: 0 })), 200);
+  assert.deepEqual(bars.map(b => b.track), [200, 200, 200, 170, 170, 170, 170]);
+  assert.deepEqual(bars[2], { track: 200, spent: 200, planned: 0, over: true });
+  assert.deepEqual(bars[0], { track: 200, spent: 100, planned: 0, over: false });
 });

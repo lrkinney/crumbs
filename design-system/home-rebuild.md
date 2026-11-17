@@ -33,8 +33,25 @@ Figma frames inspected visually. Expo lint, typecheck and 52 tests pass (new wee
 
 ## Weekly budget (2026-11-17)
 
-`CRUMBS/Home/Weekly Budget` (Figma section `15 · Weekly budget`, set `407:45558`, states Under budget / Over budget / Not started) replaces the Budget Meter ruler on Home. Sub-components: `CRUMBS/Home/Budget Bar` (`407:45472`, segmented bar), `CRUMBS/Home/Budget Legend Item` (`407:45461`, swatch + label + pill, Kind = Spent / Planned / Remaining / Over budget) and `CRUMBS/Home/Budget Value Pill` (`407:45435`).
+Figma section `15 · Weekly budget` (page 02) holds the system. Components:
 
-Colours are tokens: Spent `action.primary-hover`, Planned `action.primary`, Remaining `action.primary-pressed`, Over budget `status.warning`, pill `surface.subtle`. Remaining and Over budget never show together. Spent counts cooked meals, Planned counts planned meals.
+- `CRUMBS/Home/Weekly Budget (chart)` (`410:27117`): heading, summary line, week chart and legend. States: Over a day, Planned, Not started.
+- `CRUMBS/Home/Week Chart` (`410:26859`): seven equal-width columns of day bars with the weekday and date under each, so a day always sits under its bar. States: Over a day, Planned, Empty.
+- `CRUMBS/Home/Day Bar` (`410:26589`): a day's bar. Variants `Bar=Sun … Sat` are the sample week, `Empty` and `Planned` are generic. Layers: tan Track (that day's allowance), Spent (dark, bottom), Planned (light, above), Over budget cap (orange).
+- `CRUMBS/Home/Budget Legend Item` (`407:45461`): swatch, label and value pill. Kind = Spent, Planned, Remaining, Over budget.
+- `CRUMBS/Home/Budget Value Pill` (`407:45435`).
 
-Expo: `WeeklyBudget` (`src/features/home/weekly-budget.tsx`) uses `BudgetBar`, `BudgetSegment`, `BudgetLegendItem` and `ValuePill` from `src/components/ui/budget-breakdown.tsx`. Amounts come from `weekBudgetBreakdown` and `budgetBreakdown` in `src/services/planning.ts`. The old `BudgetMeter` ruler is no longer used on Home.
+Colours are tokens: Spent `action.primary`, Planned `action.primary-hover`, Remaining (the track) `surface.subtle`, Over budget `status.warning`. The old horizontal-bar Budget Bar and Weekly Budget components are removed; Home screens use the chart versions. The Budget Meter ruler (`392:43710`) is no longer used on Home.
+
+### How the days share the budget
+
+Each day starts with an even share of what is left after the days before it: `allowance(day) = floor((budget - charged so far) / days left)`. A day is charged the larger of its cost and its allowance, so:
+
+- Spending less than a day's allowance does not raise later days (the unused part shows as tan track).
+- Going over shrinks every remaining day to cover the overspend. A $75 week starts at $10.71 a day. If Tuesday costs $16.00, Wed to Sat share ($75.00 - 10.71 - 10.71 - 16.00) / 4 and their tracks get shorter.
+- Once the budget is gone, later days have a track of zero and anything planned on them is over.
+- The orange cap marks a day that went over its own allowance. The summary line still compares the whole week's cost with the budget.
+
+Track height is proportional to the allowance; the tallest allowance fills the chart. Spent sits at the bottom and planned above it, both clipped to the track.
+
+Expo: `WeeklyBudget` (`src/features/home/weekly-budget.tsx`) uses `WeekChart` and `DayBar` (`src/components/ui/week-chart.tsx`) and `BudgetLegendItem`, `ValuePill` (`src/components/ui/budget-breakdown.tsx`). Logic lives in `src/services/planning.ts`: `distributeDailyBudget`, `weekBudgetDays`, `weekChartBars`, with tests in `tests/planning.test.mjs`.

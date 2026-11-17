@@ -17,4 +17,4 @@ Meal-planning prototype. Expo SDK 58 / React Native / TypeScript / Expo Router, 
 - `design-system/` handoff docs, e.g. `home-rebuild.md`.
 
 ## Figma node IDs
-Browse `15:1203`, Home active `299:17217`, Home empty `5:4`, recipe library section `385:22165`, Budget Meter `392:43710` (old), Weekly Budget set `407:45558` (section `15 · Weekly budget`), Day Tab set (Default `207:2495`, Selected `207:2498`). Re-search components at the start of a Figma session; IDs can go stale.
+Browse `15:1203`, Home active `299:17217`, Home empty `5:4`, recipe library section `385:22165`, Budget Meter `392:43710` (old), Weekly Budget (chart) set `410:27117`, Week Chart `410:26859`, Day Bar `410:26589` (section `15 · Weekly budget`), Day Tab set (Default `207:2495`, Selected `207:2498`). Re-search components at the start of a Figma session; IDs can go stale.
