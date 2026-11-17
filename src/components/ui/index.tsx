@@ -140,6 +140,7 @@ export function Screen({ children, title, subtitle, back, headerAction, footer, 
     </SafeAreaView>
   </KeyboardAvoidingView>;
 }
+/** Sized to its content; the keyboard is handled by KeyboardAvoidingView and automaticallyAdjustKeyboardInsets. */
 export function Dialog({ title, children, visible, onClose }: PropsWithChildren<{ title: string; visible: boolean; onClose: () => void }>) {
   const scrollRef = useRef<ScrollViewInstance>(null);
   return <Modal visible={visible} transparent animationType="fade" onRequestClose={onClose}>
@@ -147,7 +148,7 @@ export function Dialog({ title, children, visible, onClose }: PropsWithChildren<
       <Pressable style={StyleSheet.absoluteFill} onPress={onClose} accessibilityRole="button" accessibilityLabel="Close dialog" testID="dialog-backdrop" />
       <SafeAreaView style={styles.dialogSafe} pointerEvents="box-none">
         <View style={styles.dialog} accessibilityViewIsModal>
-          <KeyboardScrollContext.Provider value={scrollRef}><ScrollView ref={scrollRef} keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets contentContainerStyle={{ flexGrow: 1, paddingBottom: space.xxl * 2 }}><Stack gap={space.md}><Text role="section" accessibilityRole="header">{title}</Text>{children}</Stack></ScrollView></KeyboardScrollContext.Provider>
+          <KeyboardScrollContext.Provider value={scrollRef}><ScrollView ref={scrollRef} keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets><Stack gap={space.md}><Text role="section" accessibilityRole="header">{title}</Text>{children}</Stack></ScrollView></KeyboardScrollContext.Provider>
         </View>
       </SafeAreaView>
     </KeyboardAvoidingView>
