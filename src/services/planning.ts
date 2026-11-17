@@ -107,11 +107,27 @@ export function weekBounds(date: string) {
   const end = new Date(start); end.setDate(end.getDate() + 6);
   return { start: localDate(start), end: localDate(end) };
 }
-/** Estimated cost of the meals planned (or cooked) in the week containing `date`. Recipes without an estimate count as zero. */
-export function weekSpendMinor(data: AppData, date: string) {
+function mealCostMinor(meal: Meal) {
+  const r = findRecipe(meal.recipeId);
+  return r?.estimateMinor != null ? Math.round(r.estimateMinor * meal.servings * (meal.portionFactor ?? 1) / r.baseServings) : 0;
+}
+/** Estimated cost of the meals planned (or cooked) in the week containing `date`, split by status. Recipes without an estimate count as zero. */
+export function weekBudgetBreakdown(data: AppData, date: string) {
   const { start, end } = weekBounds(date);
-  return data.meals.filter(m => m.date >= start && m.date <= end).reduce((sum, m) => {
-    const r = findRecipe(m.recipeId);
-    return sum + (r?.estimateMinor != null ? Math.round(r.estimateMinor * m.servings * (m.portionFactor ?? 1) / r.baseServings) : 0);
-  }, 0);
+  const meals = data.meals.filter(m => m.date >= start && m.date <= end);
+  const sum = (status: Meal['status']) => meals.filter(m => m.status === status).reduce((total, m) => total + mealCostMinor(m), 0);
+  return { spentMinor: sum('cooked'), plannedMinor: sum('planned') };
+}
+/** Estimated cost of every meal planned or cooked in the week containing `date`. */
+export function weekSpendMinor(data: AppData, date: string) {
+  const { spentMinor, plannedMinor } = weekBudgetBreakdown(data, date);
+  return spentMinor + plannedMinor;
+}
+
+/** Splits a weekly budget into the amounts the budget widget shows. Over budget replaces remaining, never both. */
+export function budgetBreakdown(spentMinor: number, plannedMinor: number, budgetMinor: number) {
+  const total = spentMinor + plannedMinor;
+  const remainingMinor = Math.max(0, budgetMinor - total);
+  const overMinor = budgetMinor > 0 ? Math.max(0, total - budgetMinor) : 0;
+  return { spentMinor, plannedMinor, remainingMinor, overMinor, totalMinor: spentMinor + plannedMinor + remainingMinor + overMinor };
 }

@@ -140,3 +140,18 @@ test('home heading names today, tomorrow and yesterday, else the weekday', async
   assert.equal(dayHeading('2026-11-16', '2026-11-17'), 'Yesterday, November 16');
   assert.equal(dayHeading('2026-11-20', '2026-11-17'), 'Friday, November 20');
 });
+
+test('week budget breakdown splits cooked and planned meals and never shows remaining and over together', async () => {
+  const { weekBudgetBreakdown, budgetBreakdown } = await import('../src/services/planning.ts');
+  const d = initialData();
+  const r = findRecipe('honey-sriracha-chicken');
+  d.meals = [
+    { id: 'a', recipeId: r.id, servings: 2, date: '2026-11-16', status: 'planned' },
+    { id: 'b', recipeId: r.id, servings: 4, date: '2026-11-17', status: 'cooked' },
+  ];
+  assert.deepEqual(weekBudgetBreakdown(d, '2026-11-17'), {
+    spentMinor: Math.round(r.estimateMinor * 4 / r.baseServings), plannedMinor: Math.round(r.estimateMinor * 2 / r.baseServings) });
+  assert.deepEqual(budgetBreakdown(2000, 500, 7500), { spentMinor: 2000, plannedMinor: 500, remainingMinor: 5000, overMinor: 0, totalMinor: 7500 });
+  assert.deepEqual(budgetBreakdown(5000, 2500, 7000), { spentMinor: 5000, plannedMinor: 2500, remainingMinor: 0, overMinor: 500, totalMinor: 8000 });
+  assert.equal(budgetBreakdown(0, 0, 0).overMinor, 0);
+});

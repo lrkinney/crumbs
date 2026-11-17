@@ -30,3 +30,11 @@ Figma frames inspected visually. Expo lint, typecheck and 52 tests pass (new wee
 - **Selected day is green.** `CRUMBS/Plan/Day Tab` → `State=Selected` now fills with `color/action/primary` and uses `color/text/on-action` for the day and date, matching the Expo calendar. This is the shared component, so the Plan screen and its overlays use the same selection colour.
 - **Home calendar has its own variables** (`CRUMBS · Home`: `Home/Day/<Sun…Sat>/State`, `Home/Heading`, `Home/Show Tuesday meals`, `Home/Show Wednesday meals`, `Home/Show empty day`). Before, the cloned Week Selector shared the Plan screen's variables, so Present mode showed Plan's selected day. Each tab's `State` is bound to its Home variable; clicking a tab updates the selection, the heading ("Today" or the date) and which meals show (Tuesday: Honey Sriracha, Wednesday: Sheet-Pan Chicken Souvlaki, other days: nothing planned).
 - **Buttons:** Browse recipes → Browse Recipes (`15:1203`); the recipe rows open their recipe screens; Weekly budget → the budget editor (`121:2383`); Your week is ready / See your week → Plan review; Use it while it's fresh → Pantry; Create a Plan and Portions keep their original links.
+
+## Weekly budget (2026-11-17)
+
+`CRUMBS/Home/Weekly Budget` (Figma section `15 · Weekly budget`, set `407:45558`, states Under budget / Over budget / Not started) replaces the Budget Meter ruler on Home. Sub-components: `CRUMBS/Home/Budget Bar` (`407:45472`, segmented bar), `CRUMBS/Home/Budget Legend Item` (`407:45461`, swatch + label + pill, Kind = Spent / Planned / Remaining / Over budget) and `CRUMBS/Home/Budget Value Pill` (`407:45435`).
+
+Colours are tokens: Spent `action.primary-hover`, Planned `action.primary`, Remaining `action.primary-pressed`, Over budget `status.warning`, pill `surface.subtle`. Remaining and Over budget never show together. Spent counts cooked meals, Planned counts planned meals.
+
+Expo: `WeeklyBudget` (`src/features/home/weekly-budget.tsx`) uses `BudgetBar`, `BudgetSegment`, `BudgetLegendItem` and `ValuePill` from `src/components/ui/budget-breakdown.tsx`. Amounts come from `weekBudgetBreakdown` and `budgetBreakdown` in `src/services/planning.ts`. The old `BudgetMeter` ruler is no longer used on Home.
